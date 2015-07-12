@@ -1,0 +1,1565 @@
+%CMF
+# %PSECTS Section
+# For each object file, details of its psects are enumerated here.
+# The begining of the section is indicated by %PSECTS.  The first
+# line indicates the name of the first object file, e.g.
+#    $foo.obj
+# Each line that follows describes a psect in that object file, until
+# the next object file.  The lines that describe a psect have the
+# format:
+#    <psect name> <class name> <space> <link address> <load addresses> <length> <delta>
+# All addresses and the length are given in unqualified hexadecimal
+# in delta units.  Any other numeric values are decimal.
+%PSECTS
+$C:\Users\Heshan\AppData\Local\Temp\s4ko.obj
+end_init CODE 0 18 18 4 1
+reset_vec CODE 0 0 0 4 1
+idloc IDLOC 0 200000 200000 8 1
+config CONFIG 0 300000 300000 E 1
+$dist/default/production\Batch12.X.production.obj
+intcode CODE 0 8 8 10 1
+smallconst SMALLCONST 0 800 800 8C 1
+text40 CODE 0 2EA8 2EA8 2E 1
+text39 CODE 0 2FA6 2FA6 1C 1
+text38 CODE 0 2F8A 2F8A 1C 1
+text37 CODE 0 218E 218E 130 1
+text36 CODE 0 205E 205E 130 1
+text35 CODE 0 2DC0 2DC0 48 1
+text34 CODE 0 2AC6 2AC6 92 1
+text33 CODE 0 2670 2670 B0 1
+text32 CODE 0 2998 2998 9C 1
+intcode_body CODE 0 1BB0 1BB0 24E 1
+text30 CODE 0 2F6E 2F6E 1C 1
+text29 CODE 0 2F52 2F52 1C 1
+text28 CODE 0 1F2E 1F2E 130 1
+text27 CODE 0 1DFE 1DFE 130 1
+text26 CODE 0 2D78 2D78 48 1
+text25 CODE 0 2A34 2A34 92 1
+text24 CODE 0 25C0 25C0 B0 1
+text23 CODE 0 28FC 28FC 9C 1
+text22 CODE 0 2E44 2E44 36 1
+text21 CODE 0 2860 2860 9C 1
+text20 CODE 0 22BE 22BE 11C 1
+text19 CODE 0 164C 164C 2C2 1
+text18 CODE 0 2ED6 2ED6 22 1
+text17 CODE 0 2E7A 2E7A 2E 1
+text16 CODE 0 23DA 23DA F8 1
+text15 CODE 0 2FD4 2FD4 10 1
+text14 CODE 0 2FC2 2FC2 12 1
+text13 CODE 0 2D2A 2D2A 4E 1
+text12 CODE 0 2FFE 2FFE 6 1
+text11 CODE 0 2E08 2E08 3C 1
+text10 CODE 0 2CD0 2CD0 5A 1
+text9 CODE 0 88C 88C 56A 1
+text8 CODE 0 DF6 DF6 434 1
+text7 CODE 0 122A 122A 422 1
+text6 CODE 0 2720 2720 A4 1
+text5 CODE 0 190E 190E 2A2 1
+text4 CODE 0 2F36 2F36 1C 1
+text3 CODE 0 2EF8 2EF8 20 1
+text2 CODE 0 2B58 2B58 82 1
+text1 CODE 0 2BDA 2BDA 80 1
+text0 CODE 0 2FF2 2FF2 C 1
+cstackCOMRAM COMRAM 1 1 1 2B 1
+cstackBANK0 BANK0 1 60 60 83 1
+cstackBANK1 BANK1 1 175 175 10 1
+cstackBANK3 BANK3 1 300 300 87 1
+dataBANK2 BANK2 1 200 200 ED 1
+dataBANK1 BANK1 1 100 100 75 1
+bssBANK1 BANK1 1 185 185 1 1
+dataBANK0 BANK0 1 E3 E3 1D 1
+dataCOMRAM COMRAM 1 2C 2C E 1
+bssCOMRAM COMRAM 1 3A 3A 8 1
+bitbssCOMRAM COMRAM 1 210 42 1 1
+cinit CODE 0 27C4 27C4 9C 1
+idataBANK2 CODE 0 24D2 24D2 ED 1
+idataBANK1 CODE 0 2C5A 2C5A 75 1
+idataBANK0 CODE 0 2F18 2F18 1D 1
+idataCOMRAM CODE 0 2FE4 2FE4 E 1
+# %UNUSED Section
+# This section enumerates the unused ranges of each CLASS. Each entry
+# is described on a single line as follows:
+#    <class name> <range> <delta>
+# Addresses given in the range are in hexadecimal and units of delta.
+%UNUSED
+BANK1 000186-0001FF 1
+BANK2 0002ED-0002FF 1
+BANK3 000387-0003FF 1
+BANK4 000400-0004FF 1
+BANK5 000500-0005FF 1
+BANK6 000600-0006FF 1
+BANK7 000700-0007FF 1
+BIGRAM 000043-00005F 1
+BIGRAM 000186-0001FF 1
+BIGRAM 0002ED-0002FF 1
+BIGRAM 000387-0007FF 1
+CODE 000004-000007 1
+CODE 00001C-0007FF 1
+CODE 0025BF-0025BF 1
+CODE 002CCF-002CCF 1
+CODE 002F35-002F35 1
+CODE 003004-007FFF 1
+COMRAM 000043-00005F 1
+CONST 000004-000007 1
+CONST 00001C-0007FF 1
+CONST 0025BF-0025BF 1
+CONST 002CCF-002CCF 1
+CONST 002F35-002F35 1
+CONST 003004-007FFF 1
+EEDATA F00000-F000FF 1
+MEDIUMCONST 0025BF-0025BF 1
+MEDIUMCONST 002CCF-002CCF 1
+MEDIUMCONST 002F35-002F35 1
+MEDIUMCONST 003004-007FFF 1
+RAM 000186-0001FF 1
+RAM 0002ED-0002FF 1
+RAM 000387-0007FF 1
+SFR 000F60-000FFF 1
+SMALLCONST 0025BF-0025BF 1
+SMALLCONST 002CCF-002CCF 1
+SMALLCONST 002F35-002F35 1
+SMALLCONST 003004-007FFF 1
+STACK 000387-0007FF 1
+# %LINETAB Section
+# This section enumerates the file/line to address mappings.
+# The beginning of the section is indicated by %LINETAB.
+# The first line indicates the name of the first object file, e.g.
+#   $foo.obj
+# Each line that follows describes a single mapping until the next
+# object file.  Mappings have the following format:
+#    <file name>:<line number> <address> <psect name> <class name>
+# The address is absolute and given given in unqualified hex 
+# in delta units of the psect. All mappings within an object file
+# are in ascending order of addresses.
+# All other numeric values are in decimal.
+%LINETAB
+$dist/default/production\Batch12.X.production.obj
+"D:\university\1st year project\final codes\newbatch12\Batch12.X\MyDelays.c":51 8 intcode CODE
+"D:\university\1st year project\final codes\newbatch12\Batch12.X\main.c":851 8 intcode CODE
+"D:\university\1st year project\final codes\newbatch12\Batch12.X\main.c":535 88C text9 CODE
+"D:\university\1st year project\final codes\newbatch12\Batch12.X\main.c":537 88C text9 CODE
+"D:\university\1st year project\final codes\newbatch12\Batch12.X\main.c":538 89C text9 CODE
+"D:\university\1st year project\final codes\newbatch12\Batch12.X\main.c":539 8AA text9 CODE
+"D:\university\1st year project\final codes\newbatch12\Batch12.X\main.c":540 8C6 text9 CODE
+"D:\university\1st year project\final codes\newbatch12\Batch12.X\main.c":541 8F6 text9 CODE
+"D:\university\1st year project\final codes\newbatch12\Batch12.X\main.c":542 926 text9 CODE
+"D:\university\1st year project\final codes\newbatch12\Batch12.X\main.c":543 948 text9 CODE
+"D:\university\1st year project\final codes\newbatch12\Batch12.X\main.c":544 98A text9 CODE
+"D:\university\1st year project\final codes\newbatch12\Batch12.X\main.c":545 9C0 text9 CODE
+"D:\university\1st year project\final codes\newbatch12\Batch12.X\main.c":547 9E4 text9 CODE
+"D:\university\1st year project\final codes\newbatch12\Batch12.X\main.c":548 A02 text9 CODE
+"D:\university\1st year project\final codes\newbatch12\Batch12.X\main.c":549 A32 text9 CODE
+"D:\university\1st year project\final codes\newbatch12\Batch12.X\main.c":550 A62 text9 CODE
+"D:\university\1st year project\final codes\newbatch12\Batch12.X\main.c":551 A84 text9 CODE
+"D:\university\1st year project\final codes\newbatch12\Batch12.X\main.c":552 AC6 text9 CODE
+"D:\university\1st year project\final codes\newbatch12\Batch12.X\main.c":553 AFC text9 CODE
+"D:\university\1st year project\final codes\newbatch12\Batch12.X\main.c":555 B20 text9 CODE
+"D:\university\1st year project\final codes\newbatch12\Batch12.X\main.c":556 B3C text9 CODE
+"D:\university\1st year project\final codes\newbatch12\Batch12.X\main.c":557 B6C text9 CODE
+"D:\university\1st year project\final codes\newbatch12\Batch12.X\main.c":558 B9C text9 CODE
+"D:\university\1st year project\final codes\newbatch12\Batch12.X\main.c":559 BBE text9 CODE
+"D:\university\1st year project\final codes\newbatch12\Batch12.X\main.c":560 C00 text9 CODE
+"D:\university\1st year project\final codes\newbatch12\Batch12.X\main.c":561 C36 text9 CODE
+"D:\university\1st year project\final codes\newbatch12\Batch12.X\main.c":563 C58 text9 CODE
+"D:\university\1st year project\final codes\newbatch12\Batch12.X\main.c":564 C60 text9 CODE
+"D:\university\1st year project\final codes\newbatch12\Batch12.X\main.c":565 CA6 text9 CODE
+"D:\university\1st year project\final codes\newbatch12\Batch12.X\main.c":566 CB4 text9 CODE
+"D:\university\1st year project\final codes\newbatch12\Batch12.X\main.c":570 CC4 text9 CODE
+"D:\university\1st year project\final codes\newbatch12\Batch12.X\main.c":571 CCE text9 CODE
+"D:\university\1st year project\final codes\newbatch12\Batch12.X\main.c":573 CDA text9 CODE
+"D:\university\1st year project\final codes\newbatch12\Batch12.X\main.c":574 CE8 text9 CODE
+"D:\university\1st year project\final codes\newbatch12\Batch12.X\main.c":575 CF6 text9 CODE
+"D:\university\1st year project\final codes\newbatch12\Batch12.X\main.c":576 CFC text9 CODE
+"D:\university\1st year project\final codes\newbatch12\Batch12.X\main.c":577 CFE text9 CODE
+"D:\university\1st year project\final codes\newbatch12\Batch12.X\main.c":578 D0C text9 CODE
+"D:\university\1st year project\final codes\newbatch12\Batch12.X\main.c":579 D1A text9 CODE
+"D:\university\1st year project\final codes\newbatch12\Batch12.X\main.c":580 D20 text9 CODE
+"D:\university\1st year project\final codes\newbatch12\Batch12.X\main.c":581 D22 text9 CODE
+"D:\university\1st year project\final codes\newbatch12\Batch12.X\main.c":582 D30 text9 CODE
+"D:\university\1st year project\final codes\newbatch12\Batch12.X\main.c":583 D3E text9 CODE
+"D:\university\1st year project\final codes\newbatch12\Batch12.X\main.c":584 D44 text9 CODE
+"D:\university\1st year project\final codes\newbatch12\Batch12.X\main.c":585 D46 text9 CODE
+"D:\university\1st year project\final codes\newbatch12\Batch12.X\main.c":586 D54 text9 CODE
+"D:\university\1st year project\final codes\newbatch12\Batch12.X\main.c":587 D62 text9 CODE
+"D:\university\1st year project\final codes\newbatch12\Batch12.X\main.c":588 D68 text9 CODE
+"D:\university\1st year project\final codes\newbatch12\Batch12.X\main.c":590 D6A text9 CODE
+"D:\university\1st year project\final codes\newbatch12\Batch12.X\main.c":591 D76 text9 CODE
+"D:\university\1st year project\final codes\newbatch12\Batch12.X\main.c":592 D9C text9 CODE
+"D:\university\1st year project\final codes\newbatch12\Batch12.X\main.c":593 DA2 text9 CODE
+"D:\university\1st year project\final codes\newbatch12\Batch12.X\main.c":596 DA4 text9 CODE
+"D:\university\1st year project\final codes\newbatch12\Batch12.X\main.c":569 DB0 text9 CODE
+"D:\university\1st year project\final codes\newbatch12\Batch12.X\main.c":537 DBC text9 CODE
+"D:\university\1st year project\final codes\newbatch12\Batch12.X\main.c":603 DF4 text9 CODE
+"D:\university\1st year project\final codes\newbatch12\Batch12.X\main.c":449 DF6 text8 CODE
+"D:\university\1st year project\final codes\newbatch12\Batch12.X\main.c":450 DF6 text8 CODE
+"D:\university\1st year project\final codes\newbatch12\Batch12.X\main.c":451 E06 text8 CODE
+"D:\university\1st year project\final codes\newbatch12\Batch12.X\main.c":452 E18 text8 CODE
+"D:\university\1st year project\final codes\newbatch12\Batch12.X\main.c":453 E2A text8 CODE
+"D:\university\1st year project\final codes\newbatch12\Batch12.X\main.c":454 E3C text8 CODE
+"D:\university\1st year project\final codes\newbatch12\Batch12.X\main.c":459 E4E text8 CODE
+"D:\university\1st year project\final codes\newbatch12\Batch12.X\main.c":460 E54 text8 CODE
+"D:\university\1st year project\final codes\newbatch12\Batch12.X\main.c":461 E72 text8 CODE
+"D:\university\1st year project\final codes\newbatch12\Batch12.X\main.c":462 E90 text8 CODE
+"D:\university\1st year project\final codes\newbatch12\Batch12.X\main.c":463 EAE text8 CODE
+"D:\university\1st year project\final codes\newbatch12\Batch12.X\main.c":464 ECC text8 CODE
+"D:\university\1st year project\final codes\newbatch12\Batch12.X\main.c":465 EEE text8 CODE
+"D:\university\1st year project\final codes\newbatch12\Batch12.X\main.c":466 EF8 text8 CODE
+"D:\university\1st year project\final codes\newbatch12\Batch12.X\main.c":467 F04 text8 CODE
+"D:\university\1st year project\final codes\newbatch12\Batch12.X\main.c":468 F26 text8 CODE
+"D:\university\1st year project\final codes\newbatch12\Batch12.X\main.c":469 F30 text8 CODE
+"D:\university\1st year project\final codes\newbatch12\Batch12.X\main.c":471 F38 text8 CODE
+"D:\university\1st year project\final codes\newbatch12\Batch12.X\main.c":472 F40 text8 CODE
+"D:\university\1st year project\final codes\newbatch12\Batch12.X\main.c":473 F4C text8 CODE
+"D:\university\1st year project\final codes\newbatch12\Batch12.X\main.c":474 F6E text8 CODE
+"D:\university\1st year project\final codes\newbatch12\Batch12.X\main.c":475 F7A text8 CODE
+"D:\university\1st year project\final codes\newbatch12\Batch12.X\main.c":476 F8A text8 CODE
+"D:\university\1st year project\final codes\newbatch12\Batch12.X\main.c":477 F8C text8 CODE
+"D:\university\1st year project\final codes\newbatch12\Batch12.X\main.c":478 F94 text8 CODE
+"D:\university\1st year project\final codes\newbatch12\Batch12.X\main.c":479 FA0 text8 CODE
+"D:\university\1st year project\final codes\newbatch12\Batch12.X\main.c":480 FAA text8 CODE
+"D:\university\1st year project\final codes\newbatch12\Batch12.X\main.c":481 FB0 text8 CODE
+"D:\university\1st year project\final codes\newbatch12\Batch12.X\main.c":485 FD0 text8 CODE
+"D:\university\1st year project\final codes\newbatch12\Batch12.X\main.c":486 FDE text8 CODE
+"D:\university\1st year project\final codes\newbatch12\Batch12.X\main.c":487 FE4 text8 CODE
+"D:\university\1st year project\final codes\newbatch12\Batch12.X\main.c":488 FF2 text8 CODE
+"D:\university\1st year project\final codes\newbatch12\Batch12.X\main.c":489 1000 text8 CODE
+"D:\university\1st year project\final codes\newbatch12\Batch12.X\main.c":490 1010 text8 CODE
+"D:\university\1st year project\final codes\newbatch12\Batch12.X\main.c":492 1046 text8 CODE
+"D:\university\1st year project\final codes\newbatch12\Batch12.X\main.c":493 106E text8 CODE
+"D:\university\1st year project\final codes\newbatch12\Batch12.X\main.c":494 109E text8 CODE
+"D:\university\1st year project\final codes\newbatch12\Batch12.X\main.c":495 10C0 text8 CODE
+"D:\university\1st year project\final codes\newbatch12\Batch12.X\main.c":496 1102 text8 CODE
+"D:\university\1st year project\final codes\newbatch12\Batch12.X\main.c":497 111C text8 CODE
+"D:\university\1st year project\final codes\newbatch12\Batch12.X\main.c":498 112A text8 CODE
+"D:\university\1st year project\final codes\newbatch12\Batch12.X\main.c":499 1138 text8 CODE
+"D:\university\1st year project\final codes\newbatch12\Batch12.X\main.c":503 1142 text8 CODE
+"D:\university\1st year project\final codes\newbatch12\Batch12.X\main.c":504 114C text8 CODE
+"D:\university\1st year project\final codes\newbatch12\Batch12.X\main.c":507 1158 text8 CODE
+"D:\university\1st year project\final codes\newbatch12\Batch12.X\main.c":508 1164 text8 CODE
+"D:\university\1st year project\final codes\newbatch12\Batch12.X\main.c":509 118A text8 CODE
+"D:\university\1st year project\final codes\newbatch12\Batch12.X\main.c":510 1190 text8 CODE
+"D:\university\1st year project\final codes\newbatch12\Batch12.X\main.c":502 119E text8 CODE
+"D:\university\1st year project\final codes\newbatch12\Batch12.X\main.c":489 11AC text8 CODE
+"D:\university\1st year project\final codes\newbatch12\Batch12.X\main.c":522 11E6 text8 CODE
+"D:\university\1st year project\final codes\newbatch12\Batch12.X\main.c":523 11F2 text8 CODE
+"D:\university\1st year project\final codes\newbatch12\Batch12.X\main.c":524 11F8 text8 CODE
+"D:\university\1st year project\final codes\newbatch12\Batch12.X\main.c":525 1212 text8 CODE
+"D:\university\1st year project\final codes\newbatch12\Batch12.X\main.c":528 1216 text8 CODE
+"D:\university\1st year project\final codes\newbatch12\Batch12.X\main.c":529 1222 text8 CODE
+"D:\university\1st year project\final codes\newbatch12\Batch12.X\main.c":533 1228 text8 CODE
+"D:\university\1st year project\final codes\newbatch12\Batch12.X\main.c":343 122A text7 CODE
+"D:\university\1st year project\final codes\newbatch12\Batch12.X\main.c":344 122A text7 CODE
+"D:\university\1st year project\final codes\newbatch12\Batch12.X\main.c":345 1230 text7 CODE
+"D:\university\1st year project\final codes\newbatch12\Batch12.X\main.c":349 123C text7 CODE
+"D:\university\1st year project\final codes\newbatch12\Batch12.X\main.c":350 124E text7 CODE
+"D:\university\1st year project\final codes\newbatch12\Batch12.X\main.c":354 1260 text7 CODE
+"D:\university\1st year project\final codes\newbatch12\Batch12.X\main.c":355 1266 text7 CODE
+"D:\university\1st year project\final codes\newbatch12\Batch12.X\main.c":360 126C text7 CODE
+"D:\university\1st year project\final codes\newbatch12\Batch12.X\main.c":361 127A text7 CODE
+"D:\university\1st year project\final codes\newbatch12\Batch12.X\main.c":362 1280 text7 CODE
+"D:\university\1st year project\final codes\newbatch12\Batch12.X\main.c":363 129E text7 CODE
+"D:\university\1st year project\final codes\newbatch12\Batch12.X\main.c":364 12CA text7 CODE
+"D:\university\1st year project\final codes\newbatch12\Batch12.X\main.c":365 12F6 text7 CODE
+"D:\university\1st year project\final codes\newbatch12\Batch12.X\main.c":368 1314 text7 CODE
+"D:\university\1st year project\final codes\newbatch12\Batch12.X\main.c":369 131E text7 CODE
+"D:\university\1st year project\final codes\newbatch12\Batch12.X\main.c":370 1334 text7 CODE
+"D:\university\1st year project\final codes\newbatch12\Batch12.X\main.c":371 1336 text7 CODE
+"D:\university\1st year project\final codes\newbatch12\Batch12.X\main.c":374 1354 text7 CODE
+"D:\university\1st year project\final codes\newbatch12\Batch12.X\main.c":375 135E text7 CODE
+"D:\university\1st year project\final codes\newbatch12\Batch12.X\main.c":376 137C text7 CODE
+"D:\university\1st year project\final codes\newbatch12\Batch12.X\main.c":377 137E text7 CODE
+"D:\university\1st year project\final codes\newbatch12\Batch12.X\main.c":380 139C text7 CODE
+"D:\university\1st year project\final codes\newbatch12\Batch12.X\main.c":383 13A2 text7 CODE
+"D:\university\1st year project\final codes\newbatch12\Batch12.X\main.c":384 13AC text7 CODE
+"D:\university\1st year project\final codes\newbatch12\Batch12.X\main.c":386 13B8 text7 CODE
+"D:\university\1st year project\final codes\newbatch12\Batch12.X\main.c":387 13C0 text7 CODE
+"D:\university\1st year project\final codes\newbatch12\Batch12.X\main.c":390 13D0 text7 CODE
+"D:\university\1st year project\final codes\newbatch12\Batch12.X\main.c":392 13F2 text7 CODE
+"D:\university\1st year project\final codes\newbatch12\Batch12.X\main.c":393 142A text7 CODE
+"D:\university\1st year project\final codes\newbatch12\Batch12.X\main.c":396 1430 text7 CODE
+"D:\university\1st year project\final codes\newbatch12\Batch12.X\main.c":398 1452 text7 CODE
+"D:\university\1st year project\final codes\newbatch12\Batch12.X\main.c":400 1460 text7 CODE
+"D:\university\1st year project\final codes\newbatch12\Batch12.X\main.c":402 1482 text7 CODE
+"D:\university\1st year project\final codes\newbatch12\Batch12.X\main.c":403 14AE text7 CODE
+"D:\university\1st year project\final codes\newbatch12\Batch12.X\main.c":406 14B4 text7 CODE
+"D:\university\1st year project\final codes\newbatch12\Batch12.X\main.c":408 14D6 text7 CODE
+"D:\university\1st year project\final codes\newbatch12\Batch12.X\main.c":410 14E4 text7 CODE
+"D:\university\1st year project\final codes\newbatch12\Batch12.X\main.c":412 1506 text7 CODE
+"D:\university\1st year project\final codes\newbatch12\Batch12.X\main.c":413 150C text7 CODE
+"D:\university\1st year project\final codes\newbatch12\Batch12.X\main.c":414 1518 text7 CODE
+"D:\university\1st year project\final codes\newbatch12\Batch12.X\main.c":415 1532 text7 CODE
+"D:\university\1st year project\final codes\newbatch12\Batch12.X\main.c":416 1536 text7 CODE
+"D:\university\1st year project\final codes\newbatch12\Batch12.X\main.c":417 153A text7 CODE
+"D:\university\1st year project\final codes\newbatch12\Batch12.X\main.c":419 1544 text7 CODE
+"D:\university\1st year project\final codes\newbatch12\Batch12.X\main.c":420 1550 text7 CODE
+"D:\university\1st year project\final codes\newbatch12\Batch12.X\main.c":421 1558 text7 CODE
+"D:\university\1st year project\final codes\newbatch12\Batch12.X\main.c":422 1564 text7 CODE
+"D:\university\1st year project\final codes\newbatch12\Batch12.X\main.c":423 156C text7 CODE
+"D:\university\1st year project\final codes\newbatch12\Batch12.X\main.c":424 1578 text7 CODE
+"D:\university\1st year project\final codes\newbatch12\Batch12.X\main.c":425 1580 text7 CODE
+"D:\university\1st year project\final codes\newbatch12\Batch12.X\main.c":426 158C text7 CODE
+"D:\university\1st year project\final codes\newbatch12\Batch12.X\main.c":427 1594 text7 CODE
+"D:\university\1st year project\final codes\newbatch12\Batch12.X\main.c":428 15A0 text7 CODE
+"D:\university\1st year project\final codes\newbatch12\Batch12.X\main.c":429 15AE text7 CODE
+"D:\university\1st year project\final codes\newbatch12\Batch12.X\main.c":430 15BA text7 CODE
+"D:\university\1st year project\final codes\newbatch12\Batch12.X\main.c":360 15CA text7 CODE
+"D:\university\1st year project\final codes\newbatch12\Batch12.X\main.c":436 15DA text7 CODE
+"D:\university\1st year project\final codes\newbatch12\Batch12.X\main.c":437 15E0 text7 CODE
+"D:\university\1st year project\final codes\newbatch12\Batch12.X\main.c":438 15E6 text7 CODE
+"D:\university\1st year project\final codes\newbatch12\Batch12.X\main.c":439 1600 text7 CODE
+"D:\university\1st year project\final codes\newbatch12\Batch12.X\main.c":440 161A text7 CODE
+"D:\university\1st year project\final codes\newbatch12\Batch12.X\main.c":441 1626 text7 CODE
+"D:\university\1st year project\final codes\newbatch12\Batch12.X\main.c":442 162C text7 CODE
+"D:\university\1st year project\final codes\newbatch12\Batch12.X\main.c":443 1646 text7 CODE
+"D:\university\1st year project\final codes\newbatch12\Batch12.X\main.c":221 164C text19 CODE
+"D:\university\1st year project\final codes\newbatch12\Batch12.X\main.c":222 164C text19 CODE
+"D:\university\1st year project\final codes\newbatch12\Batch12.X\main.c":223 165E text19 CODE
+"D:\university\1st year project\final codes\newbatch12\Batch12.X\main.c":224 1670 text19 CODE
+"D:\university\1st year project\final codes\newbatch12\Batch12.X\main.c":227 1682 text19 CODE
+"D:\university\1st year project\final codes\newbatch12\Batch12.X\main.c":228 1688 text19 CODE
+"D:\university\1st year project\final codes\newbatch12\Batch12.X\main.c":229 16A6 text19 CODE
+"D:\university\1st year project\final codes\newbatch12\Batch12.X\main.c":230 16C4 text19 CODE
+"D:\university\1st year project\final codes\newbatch12\Batch12.X\main.c":233 16E2 text19 CODE
+"D:\university\1st year project\final codes\newbatch12\Batch12.X\main.c":234 16FE text19 CODE
+"D:\university\1st year project\final codes\newbatch12\Batch12.X\main.c":235 172A text19 CODE
+"D:\university\1st year project\final codes\newbatch12\Batch12.X\main.c":236 1756 text19 CODE
+"D:\university\1st year project\final codes\newbatch12\Batch12.X\main.c":237 1774 text19 CODE
+"D:\university\1st year project\final codes\newbatch12\Batch12.X\main.c":241 177A text19 CODE
+"D:\university\1st year project\final codes\newbatch12\Batch12.X\main.c":242 1796 text19 CODE
+"D:\university\1st year project\final codes\newbatch12\Batch12.X\main.c":243 17A0 text19 CODE
+"D:\university\1st year project\final codes\newbatch12\Batch12.X\main.c":244 17AC text19 CODE
+"D:\university\1st year project\final codes\newbatch12\Batch12.X\main.c":245 17CA text19 CODE
+"D:\university\1st year project\final codes\newbatch12\Batch12.X\main.c":246 17D6 text19 CODE
+"D:\university\1st year project\final codes\newbatch12\Batch12.X\main.c":247 17DE text19 CODE
+"D:\university\1st year project\final codes\newbatch12\Batch12.X\main.c":249 17F0 text19 CODE
+"D:\university\1st year project\final codes\newbatch12\Batch12.X\main.c":250 1816 text19 CODE
+"D:\university\1st year project\final codes\newbatch12\Batch12.X\main.c":257 1822 text19 CODE
+"D:\university\1st year project\final codes\newbatch12\Batch12.X\main.c":258 184E text19 CODE
+"D:\university\1st year project\final codes\newbatch12\Batch12.X\main.c":260 187A text19 CODE
+"D:\university\1st year project\final codes\newbatch12\Batch12.X\main.c":261 1884 text19 CODE
+"D:\university\1st year project\final codes\newbatch12\Batch12.X\main.c":262 1890 text19 CODE
+"D:\university\1st year project\final codes\newbatch12\Batch12.X\main.c":263 18AE text19 CODE
+"D:\university\1st year project\final codes\newbatch12\Batch12.X\main.c":264 18BA text19 CODE
+"D:\university\1st year project\final codes\newbatch12\Batch12.X\main.c":265 18C2 text19 CODE
+"D:\university\1st year project\final codes\newbatch12\Batch12.X\main.c":267 18D4 text19 CODE
+"D:\university\1st year project\final codes\newbatch12\Batch12.X\main.c":268 18FA text19 CODE
+"D:\university\1st year project\final codes\newbatch12\Batch12.X\main.c":274 1906 text19 CODE
+"D:\university\1st year project\final codes\newbatch12\Batch12.X\main.c":276 190C text19 CODE
+"D:\university\1st year project\final codes\newbatch12\Batch12.X\main.c":157 190E text5 CODE
+"D:\university\1st year project\final codes\newbatch12\Batch12.X\main.c":158 190E text5 CODE
+"D:\university\1st year project\final codes\newbatch12\Batch12.X\main.c":159 1914 text5 CODE
+"D:\university\1st year project\final codes\newbatch12\Batch12.X\main.c":160 1924 text5 CODE
+"D:\university\1st year project\final codes\newbatch12\Batch12.X\main.c":161 1936 text5 CODE
+"D:\university\1st year project\final codes\newbatch12\Batch12.X\main.c":162 1948 text5 CODE
+"D:\university\1st year project\final codes\newbatch12\Batch12.X\main.c":164 195A text5 CODE
+"D:\university\1st year project\final codes\newbatch12\Batch12.X\main.c":165 196C text5 CODE
+"D:\university\1st year project\final codes\newbatch12\Batch12.X\main.c":166 197E text5 CODE
+"D:\university\1st year project\final codes\newbatch12\Batch12.X\main.c":167 1990 text5 CODE
+"D:\university\1st year project\final codes\newbatch12\Batch12.X\main.c":172 19A2 text5 CODE
+"D:\university\1st year project\final codes\newbatch12\Batch12.X\main.c":173 19A8 text5 CODE
+"D:\university\1st year project\final codes\newbatch12\Batch12.X\main.c":174 19C6 text5 CODE
+"D:\university\1st year project\final codes\newbatch12\Batch12.X\main.c":175 19E4 text5 CODE
+"D:\university\1st year project\final codes\newbatch12\Batch12.X\main.c":176 1A02 text5 CODE
+"D:\university\1st year project\final codes\newbatch12\Batch12.X\main.c":180 1A20 text5 CODE
+"D:\university\1st year project\final codes\newbatch12\Batch12.X\main.c":183 1A2A text5 CODE
+"D:\university\1st year project\final codes\newbatch12\Batch12.X\main.c":184 1A30 text5 CODE
+"D:\university\1st year project\final codes\newbatch12\Batch12.X\main.c":185 1A4E text5 CODE
+"D:\university\1st year project\final codes\newbatch12\Batch12.X\main.c":186 1A6C text5 CODE
+"D:\university\1st year project\final codes\newbatch12\Batch12.X\main.c":187 1A8A text5 CODE
+"D:\university\1st year project\final codes\newbatch12\Batch12.X\main.c":188 1AA8 text5 CODE
+"D:\university\1st year project\final codes\newbatch12\Batch12.X\main.c":189 1ACA text5 CODE
+"D:\university\1st year project\final codes\newbatch12\Batch12.X\main.c":190 1AD4 text5 CODE
+"D:\university\1st year project\final codes\newbatch12\Batch12.X\main.c":191 1AE0 text5 CODE
+"D:\university\1st year project\final codes\newbatch12\Batch12.X\main.c":192 1B02 text5 CODE
+"D:\university\1st year project\final codes\newbatch12\Batch12.X\main.c":193 1B0C text5 CODE
+"D:\university\1st year project\final codes\newbatch12\Batch12.X\main.c":195 1B14 text5 CODE
+"D:\university\1st year project\final codes\newbatch12\Batch12.X\main.c":196 1B1C text5 CODE
+"D:\university\1st year project\final codes\newbatch12\Batch12.X\main.c":197 1B28 text5 CODE
+"D:\university\1st year project\final codes\newbatch12\Batch12.X\main.c":198 1B4A text5 CODE
+"D:\university\1st year project\final codes\newbatch12\Batch12.X\main.c":199 1B56 text5 CODE
+"D:\university\1st year project\final codes\newbatch12\Batch12.X\main.c":200 1B66 text5 CODE
+"D:\university\1st year project\final codes\newbatch12\Batch12.X\main.c":201 1B68 text5 CODE
+"D:\university\1st year project\final codes\newbatch12\Batch12.X\main.c":202 1B70 text5 CODE
+"D:\university\1st year project\final codes\newbatch12\Batch12.X\main.c":203 1B7C text5 CODE
+"D:\university\1st year project\final codes\newbatch12\Batch12.X\main.c":204 1B86 text5 CODE
+"D:\university\1st year project\final codes\newbatch12\Batch12.X\main.c":205 1B8A text5 CODE
+"D:\university\1st year project\final codes\newbatch12\Batch12.X\main.c":206 1B98 text5 CODE
+"D:\university\1st year project\final codes\newbatch12\Batch12.X\main.c":207 1B9C text5 CODE
+"D:\university\1st year project\final codes\newbatch12\Batch12.X\main.c":208 1BAA text5 CODE
+"D:\university\1st year project\final codes\newbatch12\Batch12.X\main.c":851 1BB0 intcode_body CODE
+"D:\university\1st year project\final codes\newbatch12\Batch12.X\main.c":852 1BDE intcode_body CODE
+"D:\university\1st year project\final codes\newbatch12\Batch12.X\main.c":853 1BE2 intcode_body CODE
+"D:\university\1st year project\final codes\newbatch12\Batch12.X\main.c":854 1BE4 intcode_body CODE
+"D:\university\1st year project\final codes\newbatch12\Batch12.X\main.c":855 1BE8 intcode_body CODE
+"D:\university\1st year project\final codes\newbatch12\Batch12.X\main.c":856 1BEA intcode_body CODE
+"D:\university\1st year project\final codes\newbatch12\Batch12.X\main.c":857 1BF4 intcode_body CODE
+"D:\university\1st year project\final codes\newbatch12\Batch12.X\main.c":858 1BFC intcode_body CODE
+"D:\university\1st year project\final codes\newbatch12\Batch12.X\main.c":859 1BFE intcode_body CODE
+"D:\university\1st year project\final codes\newbatch12\Batch12.X\main.c":860 1C06 intcode_body CODE
+"D:\university\1st year project\final codes\newbatch12\Batch12.X\main.c":861 1C0E intcode_body CODE
+"D:\university\1st year project\final codes\newbatch12\Batch12.X\main.c":862 1C10 intcode_body CODE
+"D:\university\1st year project\final codes\newbatch12\Batch12.X\main.c":863 1C18 intcode_body CODE
+"D:\university\1st year project\final codes\newbatch12\Batch12.X\main.c":864 1C34 intcode_body CODE
+"D:\university\1st year project\final codes\newbatch12\Batch12.X\main.c":871 1C3C intcode_body CODE
+"D:\university\1st year project\final codes\newbatch12\Batch12.X\main.c":872 1C48 intcode_body CODE
+"D:\university\1st year project\final codes\newbatch12\Batch12.X\main.c":873 1C6E intcode_body CODE
+"D:\university\1st year project\final codes\newbatch12\Batch12.X\main.c":874 1C94 intcode_body CODE
+"D:\university\1st year project\final codes\newbatch12\Batch12.X\main.c":875 1CAA intcode_body CODE
+"D:\university\1st year project\final codes\newbatch12\Batch12.X\main.c":876 1CD0 intcode_body CODE
+"D:\university\1st year project\final codes\newbatch12\Batch12.X\main.c":877 1CF6 intcode_body CODE
+"D:\university\1st year project\final codes\newbatch12\Batch12.X\main.c":878 1D0C intcode_body CODE
+"D:\university\1st year project\final codes\newbatch12\Batch12.X\main.c":879 1D32 intcode_body CODE
+"D:\university\1st year project\final codes\newbatch12\Batch12.X\main.c":880 1D58 intcode_body CODE
+"D:\university\1st year project\final codes\newbatch12\Batch12.X\main.c":884 1D60 intcode_body CODE
+"D:\university\1st year project\final codes\newbatch12\Batch12.X\main.c":885 1D74 intcode_body CODE
+"D:\university\1st year project\final codes\newbatch12\Batch12.X\main.c":886 1D7A intcode_body CODE
+"D:\university\1st year project\final codes\newbatch12\Batch12.X\main.c":887 1D90 intcode_body CODE
+"D:\university\1st year project\final codes\newbatch12\Batch12.X\main.c":888 1DA6 intcode_body CODE
+"D:\university\1st year project\final codes\newbatch12\Batch12.X\main.c":889 1DBC intcode_body CODE
+"D:\university\1st year project\final codes\newbatch12\Batch12.X\main.c":890 1DC0 intcode_body CODE
+"D:\university\1st year project\final codes\newbatch12\Batch12.X\main.c":897 1DC4 intcode_body CODE
+"D:\university\1st year project\final codes\newbatch12\Batch12.X\LCD_Library.c":74 1DFE text27 CODE
+"D:\university\1st year project\final codes\newbatch12\Batch12.X\LCD_Library.c":75 1E02 text27 CODE
+"D:\university\1st year project\final codes\newbatch12\Batch12.X\LCD_Library.c":76 1E04 text27 CODE
+"D:\university\1st year project\final codes\newbatch12\Batch12.X\LCD_Library.c":82 1E06 text27 CODE
+"D:\university\1st year project\final codes\newbatch12\Batch12.X\LCD_Library.c":83 1E44 text27 CODE
+"D:\university\1st year project\final codes\newbatch12\Batch12.X\LCD_Library.c":84 1E80 text27 CODE
+"D:\university\1st year project\final codes\newbatch12\Batch12.X\LCD_Library.c":85 1E94 text27 CODE
+"D:\university\1st year project\final codes\newbatch12\Batch12.X\LCD_Library.c":88 1E9C text27 CODE
+"D:\university\1st year project\final codes\newbatch12\Batch12.X\LCD_Library.c":89 1EDE text27 CODE
+"D:\university\1st year project\final codes\newbatch12\Batch12.X\LCD_Library.c":90 1F0C text27 CODE
+"D:\university\1st year project\final codes\newbatch12\Batch12.X\LCD_Library.c":91 1F20 text27 CODE
+"D:\university\1st year project\final codes\newbatch12\Batch12.X\LCD_Library.c":92 1F28 text27 CODE
+"D:\university\1st year project\final codes\newbatch12\Batch12.X\LCD_Library.c":94 1F2C text27 CODE
+"D:\university\1st year project\final codes\newbatch12\Batch12.X\LCD_Library.c":96 1F2E text28 CODE
+"D:\university\1st year project\final codes\newbatch12\Batch12.X\LCD_Library.c":97 1F32 text28 CODE
+"D:\university\1st year project\final codes\newbatch12\Batch12.X\LCD_Library.c":98 1F34 text28 CODE
+"D:\university\1st year project\final codes\newbatch12\Batch12.X\LCD_Library.c":102 1F36 text28 CODE
+"D:\university\1st year project\final codes\newbatch12\Batch12.X\LCD_Library.c":103 1F74 text28 CODE
+"D:\university\1st year project\final codes\newbatch12\Batch12.X\LCD_Library.c":104 1FB0 text28 CODE
+"D:\university\1st year project\final codes\newbatch12\Batch12.X\LCD_Library.c":105 1FC4 text28 CODE
+"D:\university\1st year project\final codes\newbatch12\Batch12.X\LCD_Library.c":108 1FCC text28 CODE
+"D:\university\1st year project\final codes\newbatch12\Batch12.X\LCD_Library.c":109 200E text28 CODE
+"D:\university\1st year project\final codes\newbatch12\Batch12.X\LCD_Library.c":110 203C text28 CODE
+"D:\university\1st year project\final codes\newbatch12\Batch12.X\LCD_Library.c":111 2050 text28 CODE
+"D:\university\1st year project\final codes\newbatch12\Batch12.X\LCD_Library.c":112 2058 text28 CODE
+"D:\university\1st year project\final codes\newbatch12\Batch12.X\LCD_Library.c":113 205C text28 CODE
+"D:\university\1st year project\final codes\newbatch12\Batch12.X\LCD_Library.c":74 205E text36 CODE
+"D:\university\1st year project\final codes\newbatch12\Batch12.X\LCD_Library.c":75 2062 text36 CODE
+"D:\university\1st year project\final codes\newbatch12\Batch12.X\LCD_Library.c":76 2064 text36 CODE
+"D:\university\1st year project\final codes\newbatch12\Batch12.X\LCD_Library.c":82 2066 text36 CODE
+"D:\university\1st year project\final codes\newbatch12\Batch12.X\LCD_Library.c":83 20A4 text36 CODE
+"D:\university\1st year project\final codes\newbatch12\Batch12.X\LCD_Library.c":84 20E0 text36 CODE
+"D:\university\1st year project\final codes\newbatch12\Batch12.X\LCD_Library.c":85 20F4 text36 CODE
+"D:\university\1st year project\final codes\newbatch12\Batch12.X\LCD_Library.c":88 20FC text36 CODE
+"D:\university\1st year project\final codes\newbatch12\Batch12.X\LCD_Library.c":89 213E text36 CODE
+"D:\university\1st year project\final codes\newbatch12\Batch12.X\LCD_Library.c":90 216C text36 CODE
+"D:\university\1st year project\final codes\newbatch12\Batch12.X\LCD_Library.c":91 2180 text36 CODE
+"D:\university\1st year project\final codes\newbatch12\Batch12.X\LCD_Library.c":92 2188 text36 CODE
+"D:\university\1st year project\final codes\newbatch12\Batch12.X\LCD_Library.c":94 218C text36 CODE
+"D:\university\1st year project\final codes\newbatch12\Batch12.X\LCD_Library.c":96 218E text37 CODE
+"D:\university\1st year project\final codes\newbatch12\Batch12.X\LCD_Library.c":97 2192 text37 CODE
+"D:\university\1st year project\final codes\newbatch12\Batch12.X\LCD_Library.c":98 2194 text37 CODE
+"D:\university\1st year project\final codes\newbatch12\Batch12.X\LCD_Library.c":102 2196 text37 CODE
+"D:\university\1st year project\final codes\newbatch12\Batch12.X\LCD_Library.c":103 21D4 text37 CODE
+"D:\university\1st year project\final codes\newbatch12\Batch12.X\LCD_Library.c":104 2210 text37 CODE
+"D:\university\1st year project\final codes\newbatch12\Batch12.X\LCD_Library.c":105 2224 text37 CODE
+"D:\university\1st year project\final codes\newbatch12\Batch12.X\LCD_Library.c":108 222C text37 CODE
+"D:\university\1st year project\final codes\newbatch12\Batch12.X\LCD_Library.c":109 226E text37 CODE
+"D:\university\1st year project\final codes\newbatch12\Batch12.X\LCD_Library.c":110 229C text37 CODE
+"D:\university\1st year project\final codes\newbatch12\Batch12.X\LCD_Library.c":111 22B0 text37 CODE
+"D:\university\1st year project\final codes\newbatch12\Batch12.X\LCD_Library.c":112 22B8 text37 CODE
+"D:\university\1st year project\final codes\newbatch12\Batch12.X\LCD_Library.c":113 22BC text37 CODE
+"D:\university\1st year project\final codes\newbatch12\Batch12.X\main.c":283 22BE text20 CODE
+"D:\university\1st year project\final codes\newbatch12\Batch12.X\main.c":284 22BE text20 CODE
+"D:\university\1st year project\final codes\newbatch12\Batch12.X\main.c":285 22D0 text20 CODE
+"D:\university\1st year project\final codes\newbatch12\Batch12.X\main.c":288 22E2 text20 CODE
+"D:\university\1st year project\final codes\newbatch12\Batch12.X\main.c":289 22E8 text20 CODE
+"D:\university\1st year project\final codes\newbatch12\Batch12.X\main.c":290 2302 text20 CODE
+"D:\university\1st year project\final codes\newbatch12\Batch12.X\main.c":291 231C text20 CODE
+"D:\university\1st year project\final codes\newbatch12\Batch12.X\main.c":295 2322 text20 CODE
+"D:\university\1st year project\final codes\newbatch12\Batch12.X\main.c":296 234A text20 CODE
+"D:\university\1st year project\final codes\newbatch12\Batch12.X\main.c":297 2372 text20 CODE
+"D:\university\1st year project\final codes\newbatch12\Batch12.X\main.c":299 2378 text20 CODE
+"D:\university\1st year project\final codes\newbatch12\Batch12.X\main.c":300 2382 text20 CODE
+"D:\university\1st year project\final codes\newbatch12\Batch12.X\main.c":301 238E text20 CODE
+"D:\university\1st year project\final codes\newbatch12\Batch12.X\main.c":302 2396 text20 CODE
+"D:\university\1st year project\final codes\newbatch12\Batch12.X\main.c":303 23A2 text20 CODE
+"D:\university\1st year project\final codes\newbatch12\Batch12.X\main.c":304 23AA text20 CODE
+"D:\university\1st year project\final codes\newbatch12\Batch12.X\main.c":306 23B8 text20 CODE
+"D:\university\1st year project\final codes\newbatch12\Batch12.X\main.c":307 23C6 text20 CODE
+"D:\university\1st year project\final codes\newbatch12\Batch12.X\main.c":312 23D2 text20 CODE
+"D:\university\1st year project\final codes\newbatch12\Batch12.X\main.c":313 23D8 text20 CODE
+"D:\university\1st year project\final codes\newbatch12\Batch12.X\main.c":741 23DA text16 CODE
+"D:\university\1st year project\final codes\newbatch12\Batch12.X\main.c":742 23DE text16 CODE
+"D:\university\1st year project\final codes\newbatch12\Batch12.X\main.c":743 23F8 text16 CODE
+"D:\university\1st year project\final codes\newbatch12\Batch12.X\main.c":747 2412 text16 CODE
+"D:\university\1st year project\final codes\newbatch12\Batch12.X\main.c":748 2436 text16 CODE
+"D:\university\1st year project\final codes\newbatch12\Batch12.X\main.c":749 2440 text16 CODE
+"D:\university\1st year project\final codes\newbatch12\Batch12.X\main.c":750 244C text16 CODE
+"D:\university\1st year project\final codes\newbatch12\Batch12.X\main.c":751 2470 text16 CODE
+"D:\university\1st year project\final codes\newbatch12\Batch12.X\main.c":752 2476 text16 CODE
+"D:\university\1st year project\final codes\newbatch12\Batch12.X\main.c":753 247A text16 CODE
+"D:\university\1st year project\final codes\newbatch12\Batch12.X\main.c":754 2488 text16 CODE
+"D:\university\1st year project\final codes\newbatch12\Batch12.X\main.c":755 24AC text16 CODE
+"D:\university\1st year project\final codes\newbatch12\Batch12.X\main.c":756 24B0 text16 CODE
+"D:\university\1st year project\final codes\newbatch12\Batch12.X\main.c":757 24B6 text16 CODE
+"D:\university\1st year project\final codes\newbatch12\Batch12.X\main.c":758 24C4 text16 CODE
+"D:\university\1st year project\final codes\newbatch12\Batch12.X\main.c":759 24CA text16 CODE
+"D:\university\1st year project\final codes\newbatch12\Batch12.X\main.c":761 24CE text16 CODE
+"D:\university\1st year project\final codes\newbatch12\Batch12.X\main.c":765 24D0 text16 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.31\sources\common\awdiv.c":8 25C0 text24 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.31\sources\common\awdiv.c":14 25C0 text24 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.31\sources\common\awdiv.c":15 25C8 text24 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.31\sources\common\awdiv.c":16 25DC text24 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.31\sources\common\awdiv.c":17 25E4 text24 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.31\sources\common\awdiv.c":19 25EC text24 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.31\sources\common\awdiv.c":20 2600 text24 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.31\sources\common\awdiv.c":21 2608 text24 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.31\sources\common\awdiv.c":23 260C text24 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.31\sources\common\awdiv.c":24 2614 text24 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.31\sources\common\awdiv.c":25 261C text24 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.31\sources\common\awdiv.c":26 2624 text24 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.31\sources\common\awdiv.c":27 2626 text24 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.31\sources\common\awdiv.c":28 262C text24 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.31\sources\common\awdiv.c":26 262E text24 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.31\sources\common\awdiv.c":31 2632 text24 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.31\sources\common\awdiv.c":32 2638 text24 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.31\sources\common\awdiv.c":33 2644 text24 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.31\sources\common\awdiv.c":34 264C text24 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.31\sources\common\awdiv.c":36 264E text24 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.31\sources\common\awdiv.c":37 2654 text24 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.31\sources\common\awdiv.c":39 2658 text24 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.31\sources\common\awdiv.c":40 265E text24 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.31\sources\common\awdiv.c":41 2666 text24 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.31\sources\common\awdiv.c":42 266E text24 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.31\sources\common\awdiv.c":8 2670 text33 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.31\sources\common\awdiv.c":14 2670 text33 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.31\sources\common\awdiv.c":15 2678 text33 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.31\sources\common\awdiv.c":16 268C text33 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.31\sources\common\awdiv.c":17 2694 text33 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.31\sources\common\awdiv.c":19 269C text33 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.31\sources\common\awdiv.c":20 26B0 text33 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.31\sources\common\awdiv.c":21 26B8 text33 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.31\sources\common\awdiv.c":23 26BC text33 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.31\sources\common\awdiv.c":24 26C4 text33 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.31\sources\common\awdiv.c":25 26CC text33 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.31\sources\common\awdiv.c":26 26D4 text33 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.31\sources\common\awdiv.c":27 26D6 text33 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.31\sources\common\awdiv.c":28 26DC text33 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.31\sources\common\awdiv.c":26 26DE text33 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.31\sources\common\awdiv.c":31 26E2 text33 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.31\sources\common\awdiv.c":32 26E8 text33 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.31\sources\common\awdiv.c":33 26F4 text33 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.31\sources\common\awdiv.c":34 26FC text33 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.31\sources\common\awdiv.c":36 26FE text33 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.31\sources\common\awdiv.c":37 2704 text33 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.31\sources\common\awdiv.c":39 2708 text33 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.31\sources\common\awdiv.c":40 270E text33 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.31\sources\common\awdiv.c":41 2716 text33 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.31\sources\common\awdiv.c":42 271E text33 CODE
+"D:\university\1st year project\final codes\newbatch12\Batch12.X\main.c":319 2720 text6 CODE
+"D:\university\1st year project\final codes\newbatch12\Batch12.X\main.c":320 2720 text6 CODE
+"D:\university\1st year project\final codes\newbatch12\Batch12.X\main.c":322 2732 text6 CODE
+"D:\university\1st year project\final codes\newbatch12\Batch12.X\main.c":323 2738 text6 CODE
+"D:\university\1st year project\final codes\newbatch12\Batch12.X\main.c":325 2756 text6 CODE
+"D:\university\1st year project\final codes\newbatch12\Batch12.X\main.c":327 2762 text6 CODE
+"D:\university\1st year project\final codes\newbatch12\Batch12.X\main.c":328 2768 text6 CODE
+"D:\university\1st year project\final codes\newbatch12\Batch12.X\main.c":329 2782 text6 CODE
+"D:\university\1st year project\final codes\newbatch12\Batch12.X\main.c":330 279C text6 CODE
+"D:\university\1st year project\final codes\newbatch12\Batch12.X\main.c":331 27A6 text6 CODE
+"D:\university\1st year project\final codes\newbatch12\Batch12.X\main.c":332 27B2 text6 CODE
+"D:\university\1st year project\final codes\newbatch12\Batch12.X\main.c":336 27BE text6 CODE
+"D:\university\1st year project\final codes\newbatch12\Batch12.X\main.c":338 27C2 text6 CODE
+"C:\Users\Heshan\AppData\Local\Temp\s4ko.":2047 27C4 cinit CODE
+"C:\Users\Heshan\AppData\Local\Temp\s4ko.":2049 27C4 cinit CODE
+"C:\Users\Heshan\AppData\Local\Temp\s4ko.":2052 27C4 cinit CODE
+"C:\Users\Heshan\AppData\Local\Temp\s4ko.":2230 27C4 cinit CODE
+"C:\Users\Heshan\AppData\Local\Temp\s4ko.":2231 27C6 cinit CODE
+"C:\Users\Heshan\AppData\Local\Temp\s4ko.":2234 27C8 cinit CODE
+"C:\Users\Heshan\AppData\Local\Temp\s4ko.":2237 27CA cinit CODE
+"C:\Users\Heshan\AppData\Local\Temp\s4ko.":2238 27CE cinit CODE
+"C:\Users\Heshan\AppData\Local\Temp\s4ko.":2239 27D0 cinit CODE
+"C:\Users\Heshan\AppData\Local\Temp\s4ko.":2240 27D0 cinit CODE
+"C:\Users\Heshan\AppData\Local\Temp\s4ko.":2241 27D2 cinit CODE
+"C:\Users\Heshan\AppData\Local\Temp\s4ko.":2242 27D4 cinit CODE
+"C:\Users\Heshan\AppData\Local\Temp\s4ko.":2247 27D6 cinit CODE
+"C:\Users\Heshan\AppData\Local\Temp\s4ko.":2248 27D8 cinit CODE
+"C:\Users\Heshan\AppData\Local\Temp\s4ko.":2249 27DA cinit CODE
+"C:\Users\Heshan\AppData\Local\Temp\s4ko.":2250 27DC cinit CODE
+"C:\Users\Heshan\AppData\Local\Temp\s4ko.":2251 27DE cinit CODE
+"C:\Users\Heshan\AppData\Local\Temp\s4ko.":2252 27E0 cinit CODE
+"C:\Users\Heshan\AppData\Local\Temp\s4ko.":2253 27E2 cinit CODE
+"C:\Users\Heshan\AppData\Local\Temp\s4ko.":2254 27E6 cinit CODE
+"C:\Users\Heshan\AppData\Local\Temp\s4ko.":2255 27EA cinit CODE
+"C:\Users\Heshan\AppData\Local\Temp\s4ko.":2256 27EA cinit CODE
+"C:\Users\Heshan\AppData\Local\Temp\s4ko.":2257 27EC cinit CODE
+"C:\Users\Heshan\AppData\Local\Temp\s4ko.":2258 27F0 cinit CODE
+"C:\Users\Heshan\AppData\Local\Temp\s4ko.":2259 27F2 cinit CODE
+"C:\Users\Heshan\AppData\Local\Temp\s4ko.":2260 27F4 cinit CODE
+"C:\Users\Heshan\AppData\Local\Temp\s4ko.":2264 27F6 cinit CODE
+"C:\Users\Heshan\AppData\Local\Temp\s4ko.":2265 27F8 cinit CODE
+"C:\Users\Heshan\AppData\Local\Temp\s4ko.":2266 27FA cinit CODE
+"C:\Users\Heshan\AppData\Local\Temp\s4ko.":2267 27FC cinit CODE
+"C:\Users\Heshan\AppData\Local\Temp\s4ko.":2268 27FE cinit CODE
+"C:\Users\Heshan\AppData\Local\Temp\s4ko.":2269 2800 cinit CODE
+"C:\Users\Heshan\AppData\Local\Temp\s4ko.":2270 2802 cinit CODE
+"C:\Users\Heshan\AppData\Local\Temp\s4ko.":2271 2806 cinit CODE
+"C:\Users\Heshan\AppData\Local\Temp\s4ko.":2272 280A cinit CODE
+"C:\Users\Heshan\AppData\Local\Temp\s4ko.":2273 280A cinit CODE
+"C:\Users\Heshan\AppData\Local\Temp\s4ko.":2274 280C cinit CODE
+"C:\Users\Heshan\AppData\Local\Temp\s4ko.":2275 2810 cinit CODE
+"C:\Users\Heshan\AppData\Local\Temp\s4ko.":2276 2812 cinit CODE
+"C:\Users\Heshan\AppData\Local\Temp\s4ko.":2277 2814 cinit CODE
+"C:\Users\Heshan\AppData\Local\Temp\s4ko.":2281 2816 cinit CODE
+"C:\Users\Heshan\AppData\Local\Temp\s4ko.":2282 2818 cinit CODE
+"C:\Users\Heshan\AppData\Local\Temp\s4ko.":2283 281A cinit CODE
+"C:\Users\Heshan\AppData\Local\Temp\s4ko.":2284 281C cinit CODE
+"C:\Users\Heshan\AppData\Local\Temp\s4ko.":2285 281E cinit CODE
+"C:\Users\Heshan\AppData\Local\Temp\s4ko.":2286 2820 cinit CODE
+"C:\Users\Heshan\AppData\Local\Temp\s4ko.":2287 2822 cinit CODE
+"C:\Users\Heshan\AppData\Local\Temp\s4ko.":2288 2826 cinit CODE
+"C:\Users\Heshan\AppData\Local\Temp\s4ko.":2289 282A cinit CODE
+"C:\Users\Heshan\AppData\Local\Temp\s4ko.":2290 282A cinit CODE
+"C:\Users\Heshan\AppData\Local\Temp\s4ko.":2291 282C cinit CODE
+"C:\Users\Heshan\AppData\Local\Temp\s4ko.":2292 2830 cinit CODE
+"C:\Users\Heshan\AppData\Local\Temp\s4ko.":2293 2832 cinit CODE
+"C:\Users\Heshan\AppData\Local\Temp\s4ko.":2294 2834 cinit CODE
+"C:\Users\Heshan\AppData\Local\Temp\s4ko.":2298 2836 cinit CODE
+"C:\Users\Heshan\AppData\Local\Temp\s4ko.":2299 2838 cinit CODE
+"C:\Users\Heshan\AppData\Local\Temp\s4ko.":2300 283A cinit CODE
+"C:\Users\Heshan\AppData\Local\Temp\s4ko.":2301 283C cinit CODE
+"C:\Users\Heshan\AppData\Local\Temp\s4ko.":2302 283E cinit CODE
+"C:\Users\Heshan\AppData\Local\Temp\s4ko.":2303 2840 cinit CODE
+"C:\Users\Heshan\AppData\Local\Temp\s4ko.":2304 2842 cinit CODE
+"C:\Users\Heshan\AppData\Local\Temp\s4ko.":2305 2846 cinit CODE
+"C:\Users\Heshan\AppData\Local\Temp\s4ko.":2306 284A cinit CODE
+"C:\Users\Heshan\AppData\Local\Temp\s4ko.":2307 284A cinit CODE
+"C:\Users\Heshan\AppData\Local\Temp\s4ko.":2308 284C cinit CODE
+"C:\Users\Heshan\AppData\Local\Temp\s4ko.":2309 2850 cinit CODE
+"C:\Users\Heshan\AppData\Local\Temp\s4ko.":2310 2852 cinit CODE
+"C:\Users\Heshan\AppData\Local\Temp\s4ko.":2311 2854 cinit CODE
+"C:\Users\Heshan\AppData\Local\Temp\s4ko.":2317 2856 cinit CODE
+"C:\Users\Heshan\AppData\Local\Temp\s4ko.":2319 2856 cinit CODE
+"C:\Users\Heshan\AppData\Local\Temp\s4ko.":2320 2858 cinit CODE
+"C:\Users\Heshan\AppData\Local\Temp\s4ko.":2321 285A cinit CODE
+"C:\Users\Heshan\AppData\Local\Temp\s4ko.":2322 285C cinit CODE
+"D:\university\1st year project\final codes\newbatch12\Batch12.X\main.c":812 2860 text21 CODE
+"D:\university\1st year project\final codes\newbatch12\Batch12.X\main.c":813 2860 text21 CODE
+"D:\university\1st year project\final codes\newbatch12\Batch12.X\main.c":814 2864 text21 CODE
+"D:\university\1st year project\final codes\newbatch12\Batch12.X\main.c":817 286C text21 CODE
+"D:\university\1st year project\final codes\newbatch12\Batch12.X\main.c":818 2876 text21 CODE
+"D:\university\1st year project\final codes\newbatch12\Batch12.X\main.c":823 287A text21 CODE
+"D:\university\1st year project\final codes\newbatch12\Batch12.X\main.c":825 28DA text21 CODE
+"D:\university\1st year project\final codes\newbatch12\Batch12.X\main.c":826 28DE text21 CODE
+"D:\university\1st year project\final codes\newbatch12\Batch12.X\main.c":827 28E2 text21 CODE
+"D:\university\1st year project\final codes\newbatch12\Batch12.X\main.c":828 28E6 text21 CODE
+"D:\university\1st year project\final codes\newbatch12\Batch12.X\main.c":830 28EA text21 CODE
+"D:\university\1st year project\final codes\newbatch12\Batch12.X\main.c":817 28EE text21 CODE
+"D:\university\1st year project\final codes\newbatch12\Batch12.X\main.c":833 28F8 text21 CODE
+"D:\university\1st year project\final codes\newbatch12\Batch12.X\main.c":834 28FA text21 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.31\sources\common\awmod.c":8 28FC text23 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.31\sources\common\awmod.c":13 28FC text23 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.31\sources\common\awmod.c":14 2904 text23 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.31\sources\common\awmod.c":15 2918 text23 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.31\sources\common\awmod.c":16 2920 text23 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.31\sources\common\awmod.c":18 2928 text23 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.31\sources\common\awmod.c":19 293C text23 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.31\sources\common\awmod.c":20 2944 text23 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.31\sources\common\awmod.c":21 294C text23 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.31\sources\common\awmod.c":22 2954 text23 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.31\sources\common\awmod.c":23 2956 text23 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.31\sources\common\awmod.c":24 295C text23 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.31\sources\common\awmod.c":22 295E text23 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.31\sources\common\awmod.c":27 2962 text23 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.31\sources\common\awmod.c":28 296E text23 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.31\sources\common\awmod.c":29 2976 text23 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.31\sources\common\awmod.c":30 297C text23 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.31\sources\common\awmod.c":32 2980 text23 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.31\sources\common\awmod.c":33 2986 text23 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.31\sources\common\awmod.c":34 298E text23 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.31\sources\common\awmod.c":35 2996 text23 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.31\sources\common\awmod.c":8 2998 text32 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.31\sources\common\awmod.c":13 2998 text32 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.31\sources\common\awmod.c":14 29A0 text32 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.31\sources\common\awmod.c":15 29B4 text32 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.31\sources\common\awmod.c":16 29BC text32 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.31\sources\common\awmod.c":18 29C4 text32 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.31\sources\common\awmod.c":19 29D8 text32 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.31\sources\common\awmod.c":20 29E0 text32 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.31\sources\common\awmod.c":21 29E8 text32 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.31\sources\common\awmod.c":22 29F0 text32 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.31\sources\common\awmod.c":23 29F2 text32 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.31\sources\common\awmod.c":24 29F8 text32 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.31\sources\common\awmod.c":22 29FA text32 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.31\sources\common\awmod.c":27 29FE text32 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.31\sources\common\awmod.c":28 2A0A text32 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.31\sources\common\awmod.c":29 2A12 text32 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.31\sources\common\awmod.c":30 2A18 text32 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.31\sources\common\awmod.c":32 2A1C text32 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.31\sources\common\awmod.c":33 2A22 text32 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.31\sources\common\awmod.c":34 2A2A text32 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.31\sources\common\awmod.c":35 2A32 text32 CODE
+"D:\university\1st year project\final codes\newbatch12\Batch12.X\LCD_Library.c":136 2A34 text25 CODE
+"D:\university\1st year project\final codes\newbatch12\Batch12.X\LCD_Library.c":138 2A38 text25 CODE
+"D:\university\1st year project\final codes\newbatch12\Batch12.X\LCD_Library.c":139 2A3A text25 CODE
+"D:\university\1st year project\final codes\newbatch12\Batch12.X\LCD_Library.c":140 2A40 text25 CODE
+"D:\university\1st year project\final codes\newbatch12\Batch12.X\LCD_Library.c":141 2A46 text25 CODE
+"D:\university\1st year project\final codes\newbatch12\Batch12.X\LCD_Library.c":142 2A4C text25 CODE
+"D:\university\1st year project\final codes\newbatch12\Batch12.X\LCD_Library.c":138 2A54 text25 CODE
+"D:\university\1st year project\final codes\newbatch12\Batch12.X\LCD_Library.c":145 2A6E text25 CODE
+"D:\university\1st year project\final codes\newbatch12\Batch12.X\LCD_Library.c":147 2A74 text25 CODE
+"D:\university\1st year project\final codes\newbatch12\Batch12.X\LCD_Library.c":149 2A76 text25 CODE
+"D:\university\1st year project\final codes\newbatch12\Batch12.X\LCD_Library.c":150 2A9A text25 CODE
+"D:\university\1st year project\final codes\newbatch12\Batch12.X\LCD_Library.c":147 2A9E text25 CODE
+"D:\university\1st year project\final codes\newbatch12\Batch12.X\LCD_Library.c":153 2AC2 text25 CODE
+"D:\university\1st year project\final codes\newbatch12\Batch12.X\LCD_Library.c":147 2AC4 text25 CODE
+"D:\university\1st year project\final codes\newbatch12\Batch12.X\LCD_Library.c":136 2AC6 text34 CODE
+"D:\university\1st year project\final codes\newbatch12\Batch12.X\LCD_Library.c":138 2ACA text34 CODE
+"D:\university\1st year project\final codes\newbatch12\Batch12.X\LCD_Library.c":139 2ACC text34 CODE
+"D:\university\1st year project\final codes\newbatch12\Batch12.X\LCD_Library.c":140 2AD2 text34 CODE
+"D:\university\1st year project\final codes\newbatch12\Batch12.X\LCD_Library.c":141 2AD8 text34 CODE
+"D:\university\1st year project\final codes\newbatch12\Batch12.X\LCD_Library.c":142 2ADE text34 CODE
+"D:\university\1st year project\final codes\newbatch12\Batch12.X\LCD_Library.c":138 2AE6 text34 CODE
+"D:\university\1st year project\final codes\newbatch12\Batch12.X\LCD_Library.c":145 2B00 text34 CODE
+"D:\university\1st year project\final codes\newbatch12\Batch12.X\LCD_Library.c":147 2B06 text34 CODE
+"D:\university\1st year project\final codes\newbatch12\Batch12.X\LCD_Library.c":149 2B08 text34 CODE
+"D:\university\1st year project\final codes\newbatch12\Batch12.X\LCD_Library.c":150 2B2C text34 CODE
+"D:\university\1st year project\final codes\newbatch12\Batch12.X\LCD_Library.c":147 2B30 text34 CODE
+"D:\university\1st year project\final codes\newbatch12\Batch12.X\LCD_Library.c":153 2B54 text34 CODE
+"D:\university\1st year project\final codes\newbatch12\Batch12.X\LCD_Library.c":147 2B56 text34 CODE
+"D:\university\1st year project\final codes\newbatch12\Batch12.X\LCD_Library.c":10 2B58 text2 CODE
+"D:\university\1st year project\final codes\newbatch12\Batch12.X\LCD_Library.c":12 2B58 text2 CODE
+"D:\university\1st year project\final codes\newbatch12\Batch12.X\LCD_Library.c":13 2B60 text2 CODE
+"D:\university\1st year project\final codes\newbatch12\Batch12.X\LCD_Library.c":16 2B68 text2 CODE
+"D:\university\1st year project\final codes\newbatch12\Batch12.X\LCD_Library.c":22 2B6C text2 CODE
+"D:\university\1st year project\final codes\newbatch12\Batch12.X\LCD_Library.c":28 2B70 text2 CODE
+"D:\university\1st year project\final codes\newbatch12\Batch12.X\LCD_Library.c":31 2B74 text2 CODE
+"D:\university\1st year project\final codes\newbatch12\Batch12.X\LCD_Library.c":32 2B7C text2 CODE
+"D:\university\1st year project\final codes\newbatch12\Batch12.X\LCD_Library.c":33 2B88 text2 CODE
+"D:\university\1st year project\final codes\newbatch12\Batch12.X\LCD_Library.c":34 2B8C text2 CODE
+"D:\university\1st year project\final codes\newbatch12\Batch12.X\LCD_Library.c":35 2B98 text2 CODE
+"D:\university\1st year project\final codes\newbatch12\Batch12.X\LCD_Library.c":36 2B9C text2 CODE
+"D:\university\1st year project\final codes\newbatch12\Batch12.X\LCD_Library.c":37 2BA8 text2 CODE
+"D:\university\1st year project\final codes\newbatch12\Batch12.X\LCD_Library.c":40 2BAC text2 CODE
+"D:\university\1st year project\final codes\newbatch12\Batch12.X\LCD_Library.c":41 2BAE text2 CODE
+"D:\university\1st year project\final codes\newbatch12\Batch12.X\LCD_Library.c":42 2BB6 text2 CODE
+"D:\university\1st year project\final codes\newbatch12\Batch12.X\LCD_Library.c":48 2BBA text2 CODE
+"D:\university\1st year project\final codes\newbatch12\Batch12.X\LCD_Library.c":49 2BC0 text2 CODE
+"D:\university\1st year project\final codes\newbatch12\Batch12.X\LCD_Library.c":50 2BC6 text2 CODE
+"D:\university\1st year project\final codes\newbatch12\Batch12.X\LCD_Library.c":51 2BCC text2 CODE
+"D:\university\1st year project\final codes\newbatch12\Batch12.X\LCD_Library.c":52 2BD2 text2 CODE
+"D:\university\1st year project\final codes\newbatch12\Batch12.X\LCD_Library.c":53 2BD8 text2 CODE
+"D:\university\1st year project\final codes\newbatch12\Batch12.X\main.c":665 2BDA text1 CODE
+"D:\university\1st year project\final codes\newbatch12\Batch12.X\main.c":682 2BDA text1 CODE
+"D:\university\1st year project\final codes\newbatch12\Batch12.X\main.c":683 2BDE text1 CODE
+"D:\university\1st year project\final codes\newbatch12\Batch12.X\main.c":689 2BE2 text1 CODE
+"D:\university\1st year project\final codes\newbatch12\Batch12.X\main.c":690 2BE6 text1 CODE
+"D:\university\1st year project\final codes\newbatch12\Batch12.X\main.c":691 2BEA text1 CODE
+"D:\university\1st year project\final codes\newbatch12\Batch12.X\main.c":692 2BEE text1 CODE
+"D:\university\1st year project\final codes\newbatch12\Batch12.X\main.c":693 2BF2 text1 CODE
+"D:\university\1st year project\final codes\newbatch12\Batch12.X\main.c":700 2BF8 text1 CODE
+"D:\university\1st year project\final codes\newbatch12\Batch12.X\main.c":701 2BFC text1 CODE
+"D:\university\1st year project\final codes\newbatch12\Batch12.X\main.c":704 2C00 text1 CODE
+"D:\university\1st year project\final codes\newbatch12\Batch12.X\main.c":705 2C02 text1 CODE
+"D:\university\1st year project\final codes\newbatch12\Batch12.X\main.c":706 2C04 text1 CODE
+"D:\university\1st year project\final codes\newbatch12\Batch12.X\main.c":707 2C06 text1 CODE
+"D:\university\1st year project\final codes\newbatch12\Batch12.X\main.c":709 2C08 text1 CODE
+"D:\university\1st year project\final codes\newbatch12\Batch12.X\main.c":710 2C10 text1 CODE
+"D:\university\1st year project\final codes\newbatch12\Batch12.X\main.c":711 2C18 text1 CODE
+"D:\university\1st year project\final codes\newbatch12\Batch12.X\main.c":712 2C20 text1 CODE
+"D:\university\1st year project\final codes\newbatch12\Batch12.X\main.c":714 2C28 text1 CODE
+"D:\university\1st year project\final codes\newbatch12\Batch12.X\main.c":720 2C30 text1 CODE
+"D:\university\1st year project\final codes\newbatch12\Batch12.X\main.c":721 2C3E text1 CODE
+"D:\university\1st year project\final codes\newbatch12\Batch12.X\main.c":720 2C54 text1 CODE
+"D:\university\1st year project\final codes\newbatch12\Batch12.X\main.c":726 2C58 text1 CODE
+"D:\university\1st year project\final codes\newbatch12\Batch12.X\main.c":615 2CD0 text10 CODE
+"D:\university\1st year project\final codes\newbatch12\Batch12.X\main.c":616 2CD4 text10 CODE
+"D:\university\1st year project\final codes\newbatch12\Batch12.X\main.c":617 2CFE text10 CODE
+"D:\university\1st year project\final codes\newbatch12\Batch12.X\main.c":618 2D28 text10 CODE
+"D:\university\1st year project\final codes\newbatch12\Batch12.X\main.c":622 2D2A text13 CODE
+"D:\university\1st year project\final codes\newbatch12\Batch12.X\main.c":623 2D2E text13 CODE
+"D:\university\1st year project\final codes\newbatch12\Batch12.X\main.c":624 2D52 text13 CODE
+"D:\university\1st year project\final codes\newbatch12\Batch12.X\main.c":625 2D76 text13 CODE
+"D:\university\1st year project\final codes\newbatch12\Batch12.X\LCD_Library.c":115 2D78 text26 CODE
+"D:\university\1st year project\final codes\newbatch12\Batch12.X\LCD_Library.c":117 2D7C text26 CODE
+"D:\university\1st year project\final codes\newbatch12\Batch12.X\LCD_Library.c":118 2D7E text26 CODE
+"D:\university\1st year project\final codes\newbatch12\Batch12.X\LCD_Library.c":119 2D84 text26 CODE
+"D:\university\1st year project\final codes\newbatch12\Batch12.X\LCD_Library.c":120 2D8A text26 CODE
+"D:\university\1st year project\final codes\newbatch12\Batch12.X\LCD_Library.c":121 2D90 text26 CODE
+"D:\university\1st year project\final codes\newbatch12\Batch12.X\LCD_Library.c":117 2D98 text26 CODE
+"D:\university\1st year project\final codes\newbatch12\Batch12.X\LCD_Library.c":123 2DB2 text26 CODE
+"D:\university\1st year project\final codes\newbatch12\Batch12.X\LCD_Library.c":124 2DB8 text26 CODE
+"D:\university\1st year project\final codes\newbatch12\Batch12.X\LCD_Library.c":125 2DBE text26 CODE
+"D:\university\1st year project\final codes\newbatch12\Batch12.X\LCD_Library.c":115 2DC0 text35 CODE
+"D:\university\1st year project\final codes\newbatch12\Batch12.X\LCD_Library.c":117 2DC4 text35 CODE
+"D:\university\1st year project\final codes\newbatch12\Batch12.X\LCD_Library.c":118 2DC6 text35 CODE
+"D:\university\1st year project\final codes\newbatch12\Batch12.X\LCD_Library.c":119 2DCC text35 CODE
+"D:\university\1st year project\final codes\newbatch12\Batch12.X\LCD_Library.c":120 2DD2 text35 CODE
+"D:\university\1st year project\final codes\newbatch12\Batch12.X\LCD_Library.c":121 2DD8 text35 CODE
+"D:\university\1st year project\final codes\newbatch12\Batch12.X\LCD_Library.c":117 2DE0 text35 CODE
+"D:\university\1st year project\final codes\newbatch12\Batch12.X\LCD_Library.c":123 2DFA text35 CODE
+"D:\university\1st year project\final codes\newbatch12\Batch12.X\LCD_Library.c":124 2E00 text35 CODE
+"D:\university\1st year project\final codes\newbatch12\Batch12.X\LCD_Library.c":125 2E06 text35 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.31\sources\pic18\plib\EEP\write_B.c":30 2E08 text11 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.31\sources\pic18\plib\EEP\write_B.c":32 2E08 text11 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.31\sources\pic18\plib\EEP\write_B.c":33 2E10 text11 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.31\sources\pic18\plib\EEP\write_B.c":34 2E14 text11 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.31\sources\pic18\plib\EEP\write_B.c":35 2E18 text11 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.31\sources\pic18\plib\EEP\write_B.c":36 2E1A text11 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.31\sources\pic18\plib\EEP\write_B.c":37 2E1C text11 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.31\sources\pic18\plib\EEP\write_B.c":38 2E1E text11 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.31\sources\pic18\plib\EEP\write_B.c":39 2E26 text11 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.31\sources\pic18\plib\EEP\write_B.c":40 2E28 text11 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.31\sources\pic18\plib\EEP\write_B.c":41 2E2C text11 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.31\sources\pic18\plib\EEP\write_B.c":42 2E30 text11 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.31\sources\pic18\plib\EEP\write_B.c":43 2E32 text11 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.31\sources\pic18\plib\EEP\write_B.c":44 2E36 text11 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.31\sources\pic18\plib\EEP\write_B.c":45 2E40 text11 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.31\sources\pic18\plib\EEP\write_B.c":46 2E42 text11 CODE
+"D:\university\1st year project\final codes\newbatch12\Batch12.X\MyDelays.c":84 2E44 text22 CODE
+"D:\university\1st year project\final codes\newbatch12\Batch12.X\MyDelays.c":105 2E44 text22 CODE
+"D:\university\1st year project\final codes\newbatch12\Batch12.X\MyDelays.c":106 2E4C text22 CODE
+"D:\university\1st year project\final codes\newbatch12\Batch12.X\MyDelays.c":107 2E4E text22 CODE
+"D:\university\1st year project\final codes\newbatch12\Batch12.X\MyDelays.c":108 2E56 text22 CODE
+"D:\university\1st year project\final codes\newbatch12\Batch12.X\MyDelays.c":109 2E58 text22 CODE
+"D:\university\1st year project\final codes\newbatch12\Batch12.X\MyDelays.c":108 2E5C text22 CODE
+"D:\university\1st year project\final codes\newbatch12\Batch12.X\MyDelays.c":110 2E68 text22 CODE
+"D:\university\1st year project\final codes\newbatch12\Batch12.X\MyDelays.c":106 2E6C text22 CODE
+"D:\university\1st year project\final codes\newbatch12\Batch12.X\MyDelays.c":113 2E76 text22 CODE
+"D:\university\1st year project\final codes\newbatch12\Batch12.X\MyDelays.c":106 2E78 text22 CODE
+"D:\university\1st year project\final codes\newbatch12\Batch12.X\MyDelays.c":118 2E7A text17 CODE
+"D:\university\1st year project\final codes\newbatch12\Batch12.X\MyDelays.c":142 2E7A text17 CODE
+"D:\university\1st year project\final codes\newbatch12\Batch12.X\MyDelays.c":143 2E82 text17 CODE
+"D:\university\1st year project\final codes\newbatch12\Batch12.X\MyDelays.c":144 2E84 text17 CODE
+"D:\university\1st year project\final codes\newbatch12\Batch12.X\MyDelays.c":145 2E8C text17 CODE
+"D:\university\1st year project\final codes\newbatch12\Batch12.X\MyDelays.c":146 2E8E text17 CODE
+"D:\university\1st year project\final codes\newbatch12\Batch12.X\MyDelays.c":145 2E92 text17 CODE
+"D:\university\1st year project\final codes\newbatch12\Batch12.X\MyDelays.c":147 2E9E text17 CODE
+"D:\university\1st year project\final codes\newbatch12\Batch12.X\MyDelays.c":143 2EA0 text17 CODE
+"D:\university\1st year project\final codes\newbatch12\Batch12.X\MyDelays.c":150 2EA6 text17 CODE
+"D:\university\1st year project\final codes\newbatch12\Batch12.X\MyDelays.c":118 2EA8 text40 CODE
+"D:\university\1st year project\final codes\newbatch12\Batch12.X\MyDelays.c":142 2EA8 text40 CODE
+"D:\university\1st year project\final codes\newbatch12\Batch12.X\MyDelays.c":143 2EB0 text40 CODE
+"D:\university\1st year project\final codes\newbatch12\Batch12.X\MyDelays.c":144 2EB2 text40 CODE
+"D:\university\1st year project\final codes\newbatch12\Batch12.X\MyDelays.c":145 2EBA text40 CODE
+"D:\university\1st year project\final codes\newbatch12\Batch12.X\MyDelays.c":146 2EBC text40 CODE
+"D:\university\1st year project\final codes\newbatch12\Batch12.X\MyDelays.c":145 2EC0 text40 CODE
+"D:\university\1st year project\final codes\newbatch12\Batch12.X\MyDelays.c":147 2ECC text40 CODE
+"D:\university\1st year project\final codes\newbatch12\Batch12.X\MyDelays.c":143 2ECE text40 CODE
+"D:\university\1st year project\final codes\newbatch12\Batch12.X\MyDelays.c":150 2ED4 text40 CODE
+"D:\university\1st year project\final codes\newbatch12\Batch12.X\main.c":605 2ED6 text18 CODE
+"D:\university\1st year project\final codes\newbatch12\Batch12.X\main.c":606 2ED6 text18 CODE
+"D:\university\1st year project\final codes\newbatch12\Batch12.X\main.c":608 2EEA text18 CODE
+"D:\university\1st year project\final codes\newbatch12\Batch12.X\main.c":606 2EEE text18 CODE
+"D:\university\1st year project\final codes\newbatch12\Batch12.X\main.c":611 2EF6 text18 CODE
+"D:\university\1st year project\final codes\newbatch12\Batch12.X\MyDelays.c":6 2EF8 text3 CODE
+"D:\university\1st year project\final codes\newbatch12\Batch12.X\MyDelays.c":21 2EF8 text3 CODE
+"D:\university\1st year project\final codes\newbatch12\Batch12.X\MyDelays.c":22 2F00 text3 CODE
+"D:\university\1st year project\final codes\newbatch12\Batch12.X\MyDelays.c":23 2F02 text3 CODE
+"D:\university\1st year project\final codes\newbatch12\Batch12.X\MyDelays.c":22 2F04 text3 CODE
+"D:\university\1st year project\final codes\newbatch12\Batch12.X\MyDelays.c":24 2F0A text3 CODE
+"D:\university\1st year project\final codes\newbatch12\Batch12.X\MyDelays.c":26 2F16 text3 CODE
+"D:\university\1st year project\final codes\newbatch12\Batch12.X\MyDelays.c":58 2F36 text4 CODE
+"D:\university\1st year project\final codes\newbatch12\Batch12.X\MyDelays.c":73 2F36 text4 CODE
+"D:\university\1st year project\final codes\newbatch12\Batch12.X\MyDelays.c":74 2F3E text4 CODE
+"D:\university\1st year project\final codes\newbatch12\Batch12.X\MyDelays.c":75 2F40 text4 CODE
+"D:\university\1st year project\final codes\newbatch12\Batch12.X\MyDelays.c":74 2F44 text4 CODE
+"D:\university\1st year project\final codes\newbatch12\Batch12.X\MyDelays.c":78 2F4E text4 CODE
+"D:\university\1st year project\final codes\newbatch12\Batch12.X\MyDelays.c":74 2F50 text4 CODE
+"D:\university\1st year project\final codes\newbatch12\Batch12.X\MyDelays.c":156 2F52 text29 CODE
+"D:\university\1st year project\final codes\newbatch12\Batch12.X\MyDelays.c":163 2F52 text29 CODE
+"D:\university\1st year project\final codes\newbatch12\Batch12.X\MyDelays.c":164 2F5C text29 CODE
+"D:\university\1st year project\final codes\newbatch12\Batch12.X\MyDelays.c":165 2F66 text29 CODE
+"D:\university\1st year project\final codes\newbatch12\Batch12.X\MyDelays.c":167 2F6C text29 CODE
+"D:\university\1st year project\final codes\newbatch12\Batch12.X\MyDelays.c":32 2F6E text30 CODE
+"D:\university\1st year project\final codes\newbatch12\Batch12.X\MyDelays.c":47 2F6E text30 CODE
+"D:\university\1st year project\final codes\newbatch12\Batch12.X\MyDelays.c":48 2F76 text30 CODE
+"D:\university\1st year project\final codes\newbatch12\Batch12.X\MyDelays.c":49 2F78 text30 CODE
+"D:\university\1st year project\final codes\newbatch12\Batch12.X\MyDelays.c":48 2F7C text30 CODE
+"D:\university\1st year project\final codes\newbatch12\Batch12.X\MyDelays.c":51 2F86 text30 CODE
+"D:\university\1st year project\final codes\newbatch12\Batch12.X\MyDelays.c":48 2F88 text30 CODE
+"D:\university\1st year project\final codes\newbatch12\Batch12.X\MyDelays.c":156 2F8A text38 CODE
+"D:\university\1st year project\final codes\newbatch12\Batch12.X\MyDelays.c":163 2F8A text38 CODE
+"D:\university\1st year project\final codes\newbatch12\Batch12.X\MyDelays.c":164 2F94 text38 CODE
+"D:\university\1st year project\final codes\newbatch12\Batch12.X\MyDelays.c":165 2F9E text38 CODE
+"D:\university\1st year project\final codes\newbatch12\Batch12.X\MyDelays.c":167 2FA4 text38 CODE
+"D:\university\1st year project\final codes\newbatch12\Batch12.X\MyDelays.c":32 2FA6 text39 CODE
+"D:\university\1st year project\final codes\newbatch12\Batch12.X\MyDelays.c":47 2FA6 text39 CODE
+"D:\university\1st year project\final codes\newbatch12\Batch12.X\MyDelays.c":48 2FAE text39 CODE
+"D:\university\1st year project\final codes\newbatch12\Batch12.X\MyDelays.c":49 2FB0 text39 CODE
+"D:\university\1st year project\final codes\newbatch12\Batch12.X\MyDelays.c":48 2FB4 text39 CODE
+"D:\university\1st year project\final codes\newbatch12\Batch12.X\MyDelays.c":51 2FBE text39 CODE
+"D:\university\1st year project\final codes\newbatch12\Batch12.X\MyDelays.c":48 2FC0 text39 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.31\sources\pic18\plib\EEP\read_B.c":23 2FC2 text14 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.31\sources\pic18\plib\EEP\read_B.c":25 2FC2 text14 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.31\sources\pic18\plib\EEP\read_B.c":26 2FC6 text14 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.31\sources\pic18\plib\EEP\read_B.c":27 2FC8 text14 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.31\sources\pic18\plib\EEP\read_B.c":28 2FCA text14 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.31\sources\pic18\plib\EEP\read_B.c":29 2FCC text14 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.31\sources\pic18\plib\EEP\read_B.c":30 2FCE text14 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.31\sources\pic18\plib\EEP\read_B.c":31 2FD0 text14 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.31\sources\pic18\plib\EEP\read_B.c":32 2FD2 text14 CODE
+"D:\university\1st year project\final codes\newbatch12\Batch12.X\main.c":732 2FD4 text15 CODE
+"D:\university\1st year project\final codes\newbatch12\Batch12.X\main.c":733 2FD8 text15 CODE
+"D:\university\1st year project\final codes\newbatch12\Batch12.X\main.c":734 2FE2 text15 CODE
+"D:\university\1st year project\final codes\newbatch12\Batch12.X\main.c":143 2FF2 text0 CODE
+"D:\university\1st year project\final codes\newbatch12\Batch12.X\main.c":144 2FF2 text0 CODE
+"D:\university\1st year project\final codes\newbatch12\Batch12.X\main.c":145 2FF6 text0 CODE
+"D:\university\1st year project\final codes\newbatch12\Batch12.X\main.c":147 2FFA text0 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.31\sources\pic18\plib\EEP\busy_eep.c":12 2FFE text12 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.31\sources\pic18\plib\EEP\busy_eep.c":14 2FFE text12 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.31\sources\pic18\plib\EEP\busy_eep.c":15 3000 text12 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.31\sources\pic18\plib\EEP\busy_eep.c":14 3002 text12 CODE
+# %SYMTAB Section
+# An enumeration of all symbols in the program.
+# The beginning of the section is indicated by %SYMTAB.
+# Each line describes a single symbol as follows:
+#    <label> <value> [-]<load-adj> <class> <space> <psect> <file-name>
+# The value and load-adj are both in unqualified hexadecimal.
+# All other numeric values are in decimal.  The load-adj is the
+# quantity one needs to add to the symbol value in order to obtain the load
+# address of the symbol.  This value may be signed. If the symbol
+# was defined in a psect then <psect> will be "-". File-name
+# is the name of the object file in which the symbol was defined.
+%SYMTAB
+__CFG_XINST$OFF 0 0 ABS 0 - dist/default/production\Batch12.X.production.obj
+i2LCD_WriteStringAt@data A 0 COMRAM 1 cstackCOMRAM dist/default/production\Batch12.X.production.obj
+___awdiv@counter 23 0 COMRAM 1 cstackCOMRAM dist/default/production\Batch12.X.production.obj
+Delay_1000ms@r0 1F 0 COMRAM 1 cstackCOMRAM dist/default/production\Batch12.X.production.obj
+_PR2 FCB 0 ABS 0 - dist/default/production\Batch12.X.production.obj
+__end_of_startExam 27C4 0 CODE 0 text6 dist/default/production\Batch12.X.production.obj
+startExam@F5376 2C 0 COMRAM 1 dataCOMRAM dist/default/production\Batch12.X.production.obj
+__S0 30000E 0 ABS 0 - dist/default/production\Batch12.X.production.obj
+__S1 387 0 ABS 0 - dist/default/production\Batch12.X.production.obj
+__S2 0 0 ABS 0 - dist/default/production\Batch12.X.production.obj
+i2Delay_1000ms@r0 2 0 COMRAM 1 cstackCOMRAM dist/default/production\Batch12.X.production.obj
+i2Delay_1000ms@r1 4 0 COMRAM 1 cstackCOMRAM dist/default/production\Batch12.X.production.obj
+subMenu@txt2 A2 0 BANK0 1 cstackBANK0 dist/default/production\Batch12.X.production.obj
+__size_of_Delay_1000ms 0 0 ABS 0 - dist/default/production\Batch12.X.production.obj
+i2LCD_WriteCharAt@chr B 0 COMRAM 1 cstackCOMRAM dist/default/production\Batch12.X.production.obj
+__Hintentry 0 0 ABS 0 intentry dist/default/production\Batch12.X.production.obj
+__CFG_PWRT$OFF 0 0 ABS 0 - dist/default/production\Batch12.X.production.obj
+__Lintentry 0 0 ABS 0 intentry dist/default/production\Batch12.X.production.obj
+subMenu@i B5 0 BANK0 1 cstackBANK0 dist/default/production\Batch12.X.production.obj
+i2LCD_WriteCharAt@row C 0 COMRAM 1 cstackCOMRAM dist/default/production\Batch12.X.production.obj
+__size_ofi2_Delay_1000ms 0 0 ABS 0 - dist/default/production\Batch12.X.production.obj
+__end_of___awdiv 2670 0 CODE 0 text24 dist/default/production\Batch12.X.production.obj
+runPaper@txt2 D0 0 BANK0 1 cstackBANK0 dist/default/production\Batch12.X.production.obj
+Delay_100ms@r0 1E 0 COMRAM 1 cstackCOMRAM dist/default/production\Batch12.X.production.obj
+_MODE 3D 0 COMRAM 1 bssCOMRAM dist/default/production\Batch12.X.production.obj
+i2LCD_WriteCommand@cmd 5 0 COMRAM 1 cstackCOMRAM dist/default/production\Batch12.X.production.obj
+__size_of_Write_b_eep 0 0 ABS 0 - dist/default/production\Batch12.X.production.obj
+examSetup@F5354 215 0 BANK2 1 dataBANK2 dist/default/production\Batch12.X.production.obj
+__size_ofi2_LCD_WriteCommand 0 0 ABS 0 - dist/default/production\Batch12.X.production.obj
+subMenu@txt3 7F 0 BANK0 1 cstackBANK0 dist/default/production\Batch12.X.production.obj
+_main 2FF2 0 CODE 0 text0 dist/default/production\Batch12.X.production.obj
+___sp 0 0 STACK 2 stack C:\Users\Heshan\AppData\Local\Temp\s4ko.obj
+start 18 0 CODE 0 init C:\Users\Heshan\AppData\Local\Temp\s4ko.obj
+runPaper@F5380 2B7 0 BANK2 1 dataBANK2 dist/default/production\Batch12.X.production.obj
+LCD_WriteStringAt@string 24 0 COMRAM 1 cstackCOMRAM dist/default/production\Batch12.X.production.obj
+_TRISB F93 0 ABS 0 - dist/default/production\Batch12.X.production.obj
+_PORTB F81 0 ABS 0 - dist/default/production\Batch12.X.production.obj
+__Hirdata 0 0 CODE 0 irdata dist/default/production\Batch12.X.production.obj
+__Lirdata 0 0 CODE 0 irdata dist/default/production\Batch12.X.production.obj
+__HRAM 0 0 ABS 0 - dist/default/production\Batch12.X.production.obj
+_EEADR FA9 0 ABS 0 - dist/default/production\Batch12.X.production.obj
+__LRAM 1 0 ABS 0 - dist/default/production\Batch12.X.production.obj
+_T2CON FCA 0 ABS 0 - dist/default/production\Batch12.X.production.obj
+__end_of_interruptConfig 2FE4 0 CODE 0 text15 dist/default/production\Batch12.X.production.obj
+LCD_WriteStringAt@column 23 0 COMRAM 1 cstackCOMRAM dist/default/production\Batch12.X.production.obj
+__end_of_examSetup 1BB0 0 CODE 0 text5 dist/default/production\Batch12.X.production.obj
+Write_b_eep@bdat 20 0 COMRAM 1 cstackCOMRAM dist/default/production\Batch12.X.production.obj
+subMenu@lc B3 0 BANK0 1 cstackBANK0 dist/default/production\Batch12.X.production.obj
+__Hconfig 30000E 0 CONFIG 0 config dist/default/production\Batch12.X.production.obj
+__Lconfig 300000 0 CONFIG 0 config dist/default/production\Batch12.X.production.obj
+_Write_b_eep 2E08 0 CODE 0 text11 dist/default/production\Batch12.X.production.obj
+__end_of_runPaper 164C 0 CODE 0 text7 dist/default/production\Batch12.X.production.obj
+__end_ofi2_LCD_WriteCharAt 2E08 0 CODE 0 text35 dist/default/production\Batch12.X.production.obj
+_LCD_WriteChar 1F2E 0 CODE 0 text28 dist/default/production\Batch12.X.production.obj
+examSetup@txt2 315 0 BANK3 1 cstackBANK3 dist/default/production\Batch12.X.production.obj
+__end_of_readKey 28FC 0 CODE 0 text21 dist/default/production\Batch12.X.production.obj
+?___awmod 1E 0 COMRAM 1 cstackCOMRAM dist/default/production\Batch12.X.production.obj
+i2_Delay_5us 2F8A 0 CODE 0 text38 dist/default/production\Batch12.X.production.obj
+setExamMCQ@F5374 156 0 BANK1 1 dataBANK1 dist/default/production\Batch12.X.production.obj
+__Hbigram 0 0 ABS 0 bigram dist/default/production\Batch12.X.production.obj
+__Lbigram 0 0 ABS 0 bigram dist/default/production\Batch12.X.production.obj
+__Hrparam 0 0 ABS 0 rparam dist/default/production\Batch12.X.production.obj
+__Lrparam 0 0 ABS 0 rparam dist/default/production\Batch12.X.production.obj
+__Hram 0 0 ABS 0 ram dist/default/production\Batch12.X.production.obj
+__Lram 0 0 ABS 0 ram dist/default/production\Batch12.X.production.obj
+__Hcomram 0 0 ABS 0 comram dist/default/production\Batch12.X.production.obj
+__Lcomram 0 0 ABS 0 comram dist/default/production\Batch12.X.production.obj
+__Hsfr 0 0 ABS 0 sfr dist/default/production\Batch12.X.production.obj
+subMenu@rc B7 0 BANK0 1 cstackBANK0 dist/default/production\Batch12.X.production.obj
+__Lsfr 0 0 ABS 0 sfr dist/default/production\Batch12.X.production.obj
+__end_of__stringdata 88A 0 SMALLCONST 0 smallconst dist/default/production\Batch12.X.production.obj
+__size_of_initializeDevice 0 0 ABS 0 - dist/default/production\Batch12.X.production.obj
+__Hbss 0 0 RAM 1 bss dist/default/production\Batch12.X.production.obj
+__CFG_STVREN$ON 0 0 ABS 0 - dist/default/production\Batch12.X.production.obj
+__Lbss 0 0 RAM 1 bss dist/default/production\Batch12.X.production.obj
+__Hnvrram 0 0 COMRAM 1 nvrram dist/default/production\Batch12.X.production.obj
+_initialize_LCD 2B58 0 CODE 0 text2 dist/default/production\Batch12.X.production.obj
+__Lnvrram 0 0 COMRAM 1 nvrram dist/default/production\Batch12.X.production.obj
+_Busy_eep 2FFE 0 CODE 0 text12 dist/default/production\Batch12.X.production.obj
+_hours 3E 0 COMRAM 1 bssCOMRAM dist/default/production\Batch12.X.production.obj
+i2_Delay_1000ms 2EA8 0 CODE 0 text40 dist/default/production\Batch12.X.production.obj
+__size_of_get_yes_no 0 0 ABS 0 - dist/default/production\Batch12.X.production.obj
+i2___awmod@sign 7 0 COMRAM 1 cstackCOMRAM dist/default/production\Batch12.X.production.obj
+loadAnswer@ans 20 0 COMRAM 1 cstackCOMRAM dist/default/production\Batch12.X.production.obj
+saveAnswer@ans 23 0 COMRAM 1 cstackCOMRAM dist/default/production\Batch12.X.production.obj
+__end_of_Delay_1ms 2F18 0 CODE 0 text3 dist/default/production\Batch12.X.production.obj
+_runPaper 122A 0 CODE 0 text7 dist/default/production\Batch12.X.production.obj
+__size_ofi2___awmod 0 0 ABS 0 - dist/default/production\Batch12.X.production.obj
+_EECON2 FA7 0 ABS 0 - dist/default/production\Batch12.X.production.obj
+__size_ofi2___awdiv 0 0 ABS 0 - dist/default/production\Batch12.X.production.obj
+__end_of_Delay_10ms 2F52 0 CODE 0 text4 dist/default/production\Batch12.X.production.obj
+subMenu@F5391 2DB 0 BANK2 1 dataBANK2 dist/default/production\Batch12.X.production.obj
+__end_of_getBeep 2EF8 0 CODE 0 text18 dist/default/production\Batch12.X.production.obj
+_PIE1bits F9D 0 ABS 0 - dist/default/production\Batch12.X.production.obj
+__Heeprom_data 0 0 EEDATA 0 eeprom_data dist/default/production\Batch12.X.production.obj
+__Leeprom_data 0 0 EEDATA 0 eeprom_data dist/default/production\Batch12.X.production.obj
+_PIR1bits F9E 0 ABS 0 - dist/default/production\Batch12.X.production.obj
+i2___awmod@dividend 1 0 COMRAM 1 cstackCOMRAM dist/default/production\Batch12.X.production.obj
+__Hintsave_regs 0 0 BIGRAM 1 intsave_regs dist/default/production\Batch12.X.production.obj
+__Lintsave_regs 0 0 BIGRAM 1 intsave_regs dist/default/production\Batch12.X.production.obj
+__end_of_Delay_100ms 2E7A 0 CODE 0 text22 dist/default/production\Batch12.X.production.obj
+_EEDATA FA8 0 ABS 0 - dist/default/production\Batch12.X.production.obj
+LCD_WriteCharAt@chr 28 0 COMRAM 1 cstackCOMRAM dist/default/production\Batch12.X.production.obj
+LCD_WriteCharAt@row 29 0 COMRAM 1 cstackCOMRAM dist/default/production\Batch12.X.production.obj
+__end_of_get_yes_no 24D2 0 CODE 0 text16 dist/default/production\Batch12.X.production.obj
+__Hbigbss 0 0 BIGRAM 1 bigbss dist/default/production\Batch12.X.production.obj
+__Lbigbss 0 0 BIGRAM 1 bigbss dist/default/production\Batch12.X.production.obj
+?___awdiv 1E 0 COMRAM 1 cstackCOMRAM dist/default/production\Batch12.X.production.obj
+__Hintret 0 0 ABS 0 intret dist/default/production\Batch12.X.production.obj
+__Lintret 0 0 ABS 0 intret dist/default/production\Batch12.X.production.obj
+__Hramtop 800 0 RAM 0 ramtop dist/default/production\Batch12.X.production.obj
+__Lramtop 800 0 RAM 0 ramtop dist/default/production\Batch12.X.production.obj
+__Hstruct 0 0 COMRAM 1 struct dist/default/production\Batch12.X.production.obj
+__Lstruct 0 0 COMRAM 1 struct dist/default/production\Batch12.X.production.obj
+__Hbigdata 0 0 BIGRAM 1 bigdata dist/default/production\Batch12.X.production.obj
+__Lbigdata 0 0 BIGRAM 1 bigdata dist/default/production\Batch12.X.production.obj
+__Hmediumconst 0 0 MEDIUMCONST 0 mediumconst dist/default/production\Batch12.X.production.obj
+__Lmediumconst 0 0 MEDIUMCONST 0 mediumconst dist/default/production\Batch12.X.production.obj
+__Hfarbss 0 0 FARRAM 0 farbss dist/default/production\Batch12.X.production.obj
+__Lfarbss 0 0 FARRAM 0 farbss dist/default/production\Batch12.X.production.obj
+__Hintcode 18 0 CODE 0 intcode dist/default/production\Batch12.X.production.obj
+__Lintcode 8 0 CODE 0 intcode dist/default/production\Batch12.X.production.obj
+__Hfardata 0 0 FARRAM 0 fardata dist/default/production\Batch12.X.production.obj
+__Lfardata 0 0 FARRAM 0 fardata dist/default/production\Batch12.X.production.obj
+__pintcode 8 0 CODE 0 intcode dist/default/production\Batch12.X.production.obj
+i2___awmod@counter 6 0 COMRAM 1 cstackCOMRAM dist/default/production\Batch12.X.production.obj
+__Habs1 0 0 ABS 0 abs1 dist/default/production\Batch12.X.production.obj
+__Labs1 0 0 ABS 0 abs1 dist/default/production\Batch12.X.production.obj
+LCD_WriteChar@data 22 0 COMRAM 1 cstackCOMRAM dist/default/production\Batch12.X.production.obj
+__CFG_EBTR0$OFF 0 0 ABS 0 - dist/default/production\Batch12.X.production.obj
+__end_of_Busy_eep 3004 0 CODE 0 text12 dist/default/production\Batch12.X.production.obj
+Delay_100ms@r1 20 0 COMRAM 1 cstackCOMRAM dist/default/production\Batch12.X.production.obj
+__end_of_Delay_1000ms 2EA8 0 CODE 0 text17 dist/default/production\Batch12.X.production.obj
+__HnvFARRAM 0 0 FARRAM 0 nvFARRAM dist/default/production\Batch12.X.production.obj
+__LnvFARRAM 0 0 FARRAM 0 nvFARRAM dist/default/production\Batch12.X.production.obj
+_Delay_1ms 2EF8 0 CODE 0 text3 dist/default/production\Batch12.X.production.obj
+__CFG_EBTR1$OFF 0 0 ABS 0 - dist/default/production\Batch12.X.production.obj
+__size_of_interruptConfig 0 0 ABS 0 - dist/default/production\Batch12.X.production.obj
+examSetup@F5364 100 0 BANK1 1 dataBANK1 dist/default/production\Batch12.X.production.obj
+__CFG_PBADEN$OFF 0 0 ABS 0 - dist/default/production\Batch12.X.production.obj
+initializeDevice@addrs_cnt 24 0 COMRAM 1 cstackCOMRAM dist/default/production\Batch12.X.production.obj
+_Delay_5ms 2F6E 0 CODE 0 text30 dist/default/production\Batch12.X.production.obj
+i2___awmod 2998 0 CODE 0 text32 dist/default/production\Batch12.X.production.obj
+__CFG_EBTR2$OFF 0 0 ABS 0 - dist/default/production\Batch12.X.production.obj
+__size_of_getBeep 0 0 ABS 0 - dist/default/production\Batch12.X.production.obj
+_startExam 2720 0 CODE 0 text6 dist/default/production\Batch12.X.production.obj
+__end_of___awmod 2998 0 CODE 0 text23 dist/default/production\Batch12.X.production.obj
+Write_b_eep@GIE_BIT_VAL 22 0 COMRAM 1 cstackCOMRAM dist/default/production\Batch12.X.production.obj
+__size_of_runPaper 0 0 ABS 0 - dist/default/production\Batch12.X.production.obj
+__Hdata 0 0 ABS 0 data dist/default/production\Batch12.X.production.obj
+__Ldata 0 0 ABS 0 data dist/default/production\Batch12.X.production.obj
+__CFG_EBTR3$OFF 0 0 ABS 0 - dist/default/production\Batch12.X.production.obj
+view_answers@i 60 0 BANK0 1 cstackBANK0 dist/default/production\Batch12.X.production.obj
+__size_of_LCD_WriteCharAt 0 0 ABS 0 - dist/default/production\Batch12.X.production.obj
+_MCQCnt FD 0 BANK0 1 dataBANK0 dist/default/production\Batch12.X.production.obj
+stackhi 7FF 0 ABS 0 - C:\Users\Heshan\AppData\Local\Temp\s4ko.obj
+_Delay_5us 2F52 0 CODE 0 text29 dist/default/production\Batch12.X.production.obj
+__HcstackBANK0 0 0 ABS 0 cstackBANK0 dist/default/production\Batch12.X.production.obj
+__LcstackBANK0 0 0 ABS 0 cstackBANK0 dist/default/production\Batch12.X.production.obj
+_LCD_WriteCharAt 2D78 0 CODE 0 text26 dist/default/production\Batch12.X.production.obj
+_KEY_BUFFER 185 0 BANK1 1 bssBANK1 dist/default/production\Batch12.X.production.obj
+_minCnt FF 0 BANK0 1 dataBANK0 dist/default/production\Batch12.X.production.obj
+__pcstackBANK0 60 0 BANK0 1 cstackBANK0 dist/default/production\Batch12.X.production.obj
+i2Delay_5ms@r0 1 0 COMRAM 1 cstackCOMRAM dist/default/production\Batch12.X.production.obj
+___awmod@sign 24 0 COMRAM 1 cstackCOMRAM dist/default/production\Batch12.X.production.obj
+subMenu@menuNumber B9 0 BANK0 1 cstackBANK0 dist/default/production\Batch12.X.production.obj
+__Htemp 0 0 COMRAM 1 temp dist/default/production\Batch12.X.production.obj
+__Ltemp 0 0 COMRAM 1 temp dist/default/production\Batch12.X.production.obj
+stacklo 387 0 ABS 0 - C:\Users\Heshan\AppData\Local\Temp\s4ko.obj
+__Hrbit 0 0 COMRAM 1 rbit dist/default/production\Batch12.X.production.obj
+__Lrbit 0 0 COMRAM 1 rbit dist/default/production\Batch12.X.production.obj
+i2___awdiv@sign 7 0 COMRAM 1 cstackCOMRAM dist/default/production\Batch12.X.production.obj
+__Hinit 18 0 CODE 0 init dist/default/production\Batch12.X.production.obj
+__Linit 18 0 CODE 0 init dist/default/production\Batch12.X.production.obj
+__Hintcodelo 18 0 CODE 0 intcodelo dist/default/production\Batch12.X.production.obj
+__Lintcodelo 18 0 CODE 0 intcodelo dist/default/production\Batch12.X.production.obj
+__Hrbss 0 0 COMRAM 1 rbss dist/default/production\Batch12.X.production.obj
+__end_of_main 2FFE 0 CODE 0 text0 dist/default/production\Batch12.X.production.obj
+__Lrbss 0 0 COMRAM 1 rbss dist/default/production\Batch12.X.production.obj
+__end_of_saveAnswer 2D2A 0 CODE 0 text10 dist/default/production\Batch12.X.production.obj
+i2LCD_WriteChar@data 5 0 COMRAM 1 cstackCOMRAM dist/default/production\Batch12.X.production.obj
+__Htext 0 0 ABS 0 text dist/default/production\Batch12.X.production.obj
+__Ltext 0 0 ABS 0 text dist/default/production\Batch12.X.production.obj
+__CFG_CCP2MX$ON 0 0 ABS 0 - dist/default/production\Batch12.X.production.obj
+i2LCD_WriteCharAt@location D 0 COMRAM 1 cstackCOMRAM dist/default/production\Batch12.X.production.obj
+_Delay_10ms 2F36 0 CODE 0 text4 dist/default/production\Batch12.X.production.obj
+__HdataBANK0 0 0 ABS 0 dataBANK0 dist/default/production\Batch12.X.production.obj
+__LdataBANK0 0 0 ABS 0 dataBANK0 dist/default/production\Batch12.X.production.obj
+__end_of_Read_b_eep 2FD4 0 CODE 0 text14 dist/default/production\Batch12.X.production.obj
+__pdataBANK0 E3 0 BANK0 1 dataBANK0 dist/default/production\Batch12.X.production.obj
+Delay_1ms@r0 1F 0 COMRAM 1 cstackCOMRAM dist/default/production\Batch12.X.production.obj
+end_of_initialization 2856 0 CODE 0 cinit dist/default/production\Batch12.X.production.obj
+LCD_WriteCharAt@column 27 0 COMRAM 1 cstackCOMRAM dist/default/production\Batch12.X.production.obj
+Delay_5ms@r0 1E 0 COMRAM 1 cstackCOMRAM dist/default/production\Batch12.X.production.obj
+i2___awdiv@dividend 1 0 COMRAM 1 cstackCOMRAM dist/default/production\Batch12.X.production.obj
+___awdiv@sign 24 0 COMRAM 1 cstackCOMRAM dist/default/production\Batch12.X.production.obj
+i2___awdiv@counter 6 0 COMRAM 1 cstackCOMRAM dist/default/production\Batch12.X.production.obj
+__size_ofi2_LCD_WriteChar 0 0 ABS 0 - dist/default/production\Batch12.X.production.obj
+get_yes_no@lcd_location 2B 0 COMRAM 1 cstackCOMRAM dist/default/production\Batch12.X.production.obj
+runPaper@ansBuffer E0 0 BANK0 1 cstackBANK0 dist/default/production\Batch12.X.production.obj
+_GLOBLE_TMOD 3C 0 COMRAM 1 bssCOMRAM dist/default/production\Batch12.X.production.obj
+__size_of_initialize_LCD 0 0 ABS 0 - dist/default/production\Batch12.X.production.obj
+__HdataBANK1 0 0 ABS 0 dataBANK1 dist/default/production\Batch12.X.production.obj
+__LdataBANK1 0 0 ABS 0 dataBANK1 dist/default/production\Batch12.X.production.obj
+__end_of_subMenu 122A 0 CODE 0 text8 dist/default/production\Batch12.X.production.obj
+__pdataBANK1 100 0 BANK1 1 dataBANK1 dist/default/production\Batch12.X.production.obj
+Delay_1000ms@r1 21 0 COMRAM 1 cstackCOMRAM dist/default/production\Batch12.X.production.obj
+loadAnswer@qNumber 26 0 COMRAM 1 cstackCOMRAM dist/default/production\Batch12.X.production.obj
+saveAnswer@qNumber 29 0 COMRAM 1 cstackCOMRAM dist/default/production\Batch12.X.production.obj
+__end_of_LCD_WriteCharAt 2DC0 0 CODE 0 text26 dist/default/production\Batch12.X.production.obj
+_TRISDbits F95 0 ABS 0 - dist/default/production\Batch12.X.production.obj
+__size_of_saveAnswer 0 0 ABS 0 - dist/default/production\Batch12.X.production.obj
+_PORTDbits F83 0 ABS 0 - dist/default/production\Batch12.X.production.obj
+examSetup@F5352 200 0 BANK2 1 dataBANK2 dist/default/production\Batch12.X.production.obj
+__end_ofi2___awdiv 2720 0 CODE 0 text33 dist/default/production\Batch12.X.production.obj
+__end_ofi2_LCD_WriteCommand 218E 0 CODE 0 text36 dist/default/production\Batch12.X.production.obj
+i2___awdiv 2670 0 CODE 0 text33 dist/default/production\Batch12.X.production.obj
+i2_LCD_WriteCommand 205E 0 CODE 0 text36 dist/default/production\Batch12.X.production.obj
+__Hibigdata 0 0 CODE 0 ibigdata dist/default/production\Batch12.X.production.obj
+__Libigdata 0 0 CODE 0 ibigdata dist/default/production\Batch12.X.production.obj
+setExamTime@txt1 62 0 BANK0 1 cstackBANK0 dist/default/production\Batch12.X.production.obj
+__HdataBANK2 0 0 ABS 0 dataBANK2 dist/default/production\Batch12.X.production.obj
+__LdataBANK2 0 0 ABS 0 dataBANK2 dist/default/production\Batch12.X.production.obj
+setExamTime@txt1_2 75 0 BANK0 1 cstackBANK0 dist/default/production\Batch12.X.production.obj
+setExamTime@txt1_3 82 0 BANK0 1 cstackBANK0 dist/default/production\Batch12.X.production.obj
+__pdataBANK2 200 0 BANK2 1 dataBANK2 dist/default/production\Batch12.X.production.obj
+__end_of_setExamMCQ 23DA 0 CODE 0 text20 dist/default/production\Batch12.X.production.obj
+__Hifardata 0 0 CODE 0 ifardata dist/default/production\Batch12.X.production.obj
+__Lifardata 0 0 CODE 0 ifardata dist/default/production\Batch12.X.production.obj
+_examSetup 190E 0 CODE 0 text5 dist/default/production\Batch12.X.production.obj
+__Hbank0 0 0 ABS 0 bank0 dist/default/production\Batch12.X.production.obj
+__Lbank0 0 0 ABS 0 bank0 dist/default/production\Batch12.X.production.obj
+__size_of_LCD_WriteCommand 0 0 ABS 0 - dist/default/production\Batch12.X.production.obj
+__Hbank1 0 0 ABS 0 bank1 dist/default/production\Batch12.X.production.obj
+__Lbank1 0 0 ABS 0 bank1 dist/default/production\Batch12.X.production.obj
+__Hbank2 0 0 ABS 0 bank2 dist/default/production\Batch12.X.production.obj
+__Lbank2 0 0 ABS 0 bank2 dist/default/production\Batch12.X.production.obj
+__Hbank3 0 0 ABS 0 bank3 dist/default/production\Batch12.X.production.obj
+__Lbank3 0 0 ABS 0 bank3 dist/default/production\Batch12.X.production.obj
+__Hbank4 0 0 ABS 0 bank4 dist/default/production\Batch12.X.production.obj
+__Lbank4 0 0 ABS 0 bank4 dist/default/production\Batch12.X.production.obj
+__Hbank5 0 0 ABS 0 bank5 dist/default/production\Batch12.X.production.obj
+__Lbank5 0 0 ABS 0 bank5 dist/default/production\Batch12.X.production.obj
+_view_answers 88C 0 CODE 0 text9 dist/default/production\Batch12.X.production.obj
+__end_of_setExamTime 190E 0 CODE 0 text19 dist/default/production\Batch12.X.production.obj
+__Hpowerup 18 0 CODE 0 powerup dist/default/production\Batch12.X.production.obj
+__Lpowerup 18 0 CODE 0 powerup dist/default/production\Batch12.X.production.obj
+__Hbank6 0 0 ABS 0 bank6 dist/default/production\Batch12.X.production.obj
+__Lbank6 0 0 ABS 0 bank6 dist/default/production\Batch12.X.production.obj
+runPaper@F5382 166 0 BANK1 1 dataBANK1 dist/default/production\Batch12.X.production.obj
+__Hbank7 0 0 ABS 0 bank7 dist/default/production\Batch12.X.production.obj
+__Lbank7 0 0 ABS 0 bank7 dist/default/production\Batch12.X.production.obj
+interruptConfig@state 1E 0 COMRAM 1 cstackCOMRAM dist/default/production\Batch12.X.production.obj
+__Htext0 0 0 ABS 0 text0 dist/default/production\Batch12.X.production.obj
+__Ltext0 0 0 ABS 0 text0 dist/default/production\Batch12.X.production.obj
+__Htext1 0 0 ABS 0 text1 dist/default/production\Batch12.X.production.obj
+__Ltext1 0 0 ABS 0 text1 dist/default/production\Batch12.X.production.obj
+__ptext0 2FF2 0 CODE 0 text0 dist/default/production\Batch12.X.production.obj
+__Htext2 0 0 ABS 0 text2 dist/default/production\Batch12.X.production.obj
+__Ltext2 0 0 ABS 0 text2 dist/default/production\Batch12.X.production.obj
+__ptext1 2BDA 0 CODE 0 text1 dist/default/production\Batch12.X.production.obj
+_setExamMCQ 22BE 0 CODE 0 text20 dist/default/production\Batch12.X.production.obj
+examSetup@F5358 112 0 BANK1 1 dataBANK1 dist/default/production\Batch12.X.production.obj
+__Htext3 0 0 ABS 0 text3 dist/default/production\Batch12.X.production.obj
+__Ltext3 0 0 ABS 0 text3 dist/default/production\Batch12.X.production.obj
+__ptext2 2B58 0 CODE 0 text2 dist/default/production\Batch12.X.production.obj
+__Htext4 0 0 ABS 0 text4 dist/default/production\Batch12.X.production.obj
+__Ltext4 0 0 ABS 0 text4 dist/default/production\Batch12.X.production.obj
+__ptext3 2EF8 0 CODE 0 text3 dist/default/production\Batch12.X.production.obj
+__Htext5 0 0 ABS 0 text5 dist/default/production\Batch12.X.production.obj
+__Ltext5 0 0 ABS 0 text5 dist/default/production\Batch12.X.production.obj
+__ptext4 2F36 0 CODE 0 text4 dist/default/production\Batch12.X.production.obj
+view_answers@j 62 0 BANK0 1 cstackBANK0 dist/default/production\Batch12.X.production.obj
+__Htext6 0 0 ABS 0 text6 dist/default/production\Batch12.X.production.obj
+__Ltext6 0 0 ABS 0 text6 dist/default/production\Batch12.X.production.obj
+__ptext5 190E 0 CODE 0 text5 dist/default/production\Batch12.X.production.obj
+__end_of_Write_b_eep 2E44 0 CODE 0 text11 dist/default/production\Batch12.X.production.obj
+__Htext7 0 0 ABS 0 text7 dist/default/production\Batch12.X.production.obj
+__Ltext7 0 0 ABS 0 text7 dist/default/production\Batch12.X.production.obj
+__ptext6 2720 0 CODE 0 text6 dist/default/production\Batch12.X.production.obj
+__HbssCOMRAM 0 0 ABS 0 bssCOMRAM dist/default/production\Batch12.X.production.obj
+__LbssCOMRAM 0 0 ABS 0 bssCOMRAM dist/default/production\Batch12.X.production.obj
+__Htext8 0 0 ABS 0 text8 dist/default/production\Batch12.X.production.obj
+__Ltext8 0 0 ABS 0 text8 dist/default/production\Batch12.X.production.obj
+__ptext7 122A 0 CODE 0 text7 dist/default/production\Batch12.X.production.obj
+__pbssCOMRAM 3A 0 COMRAM 1 bssCOMRAM dist/default/production\Batch12.X.production.obj
+__Htext9 0 0 ABS 0 text9 dist/default/production\Batch12.X.production.obj
+__HcstackBANK1 0 0 ABS 0 cstackBANK1 dist/default/production\Batch12.X.production.obj
+__Ltext9 0 0 ABS 0 text9 dist/default/production\Batch12.X.production.obj
+__LcstackBANK1 0 0 ABS 0 cstackBANK1 dist/default/production\Batch12.X.production.obj
+__ptext8 DF6 0 CODE 0 text8 dist/default/production\Batch12.X.production.obj
+__ptext9 88C 0 CODE 0 text9 dist/default/production\Batch12.X.production.obj
+__pcstackBANK1 175 0 BANK1 1 cstackBANK1 dist/default/production\Batch12.X.production.obj
+__Hclrtext 0 0 ABS 0 clrtext dist/default/production\Batch12.X.production.obj
+__Lclrtext 0 0 ABS 0 clrtext dist/default/production\Batch12.X.production.obj
+__size_of_Busy_eep 0 0 ABS 0 - dist/default/production\Batch12.X.production.obj
+examSetup@txt4 34F 0 BANK3 1 cstackBANK3 dist/default/production\Batch12.X.production.obj
+_Delay_100ms 2E44 0 CODE 0 text22 dist/default/production\Batch12.X.production.obj
+subMenu@F5385 134 0 BANK1 1 dataBANK1 dist/default/production\Batch12.X.production.obj
+__size_of_LCD_WriteChar 0 0 ABS 0 - dist/default/production\Batch12.X.production.obj
+view_answers@p 67 0 BANK0 1 cstackBANK0 dist/default/production\Batch12.X.production.obj
+i2_LCD_WriteChar 218E 0 CODE 0 text37 dist/default/production\Batch12.X.production.obj
+__end_of_INTERRUPT_SERVICE_ROUTING 1DFE 0 CODE 0 intcode_body dist/default/production\Batch12.X.production.obj
+i2_LCD_WriteCharAt 2DC0 0 CODE 0 text35 dist/default/production\Batch12.X.production.obj
+__end_of__initialization 2856 0 CODE 0 cinit dist/default/production\Batch12.X.production.obj
+i2___awmod@divisor 3 0 COMRAM 1 cstackCOMRAM dist/default/production\Batch12.X.production.obj
+?i2___awmod 1 0 COMRAM 1 cstackCOMRAM dist/default/production\Batch12.X.production.obj
+examSetup@menuNumber 386 0 BANK3 1 cstackBANK3 dist/default/production\Batch12.X.production.obj
+__end_ofi2_LCD_WriteChar 22BE 0 CODE 0 text37 dist/default/production\Batch12.X.production.obj
+__size_of_LCD_WriteStringAt 0 0 ABS 0 - dist/default/production\Batch12.X.production.obj
+__end_ofi2_Delay_5ms 2FC2 0 CODE 0 text39 dist/default/production\Batch12.X.production.obj
+__end_ofi2_Delay_5us 2FA6 0 CODE 0 text38 dist/default/production\Batch12.X.production.obj
+__size_ofi2_LCD_WriteStringAt 0 0 ABS 0 - dist/default/production\Batch12.X.production.obj
+__size_ofi2_LCD_WriteCharAt 0 0 ABS 0 - dist/default/production\Batch12.X.production.obj
+loadAnswer@flag 22 0 COMRAM 1 cstackCOMRAM dist/default/production\Batch12.X.production.obj
+__end_of_loadAnswer 2D78 0 CODE 0 text13 dist/default/production\Batch12.X.production.obj
+saveAnswer@flag 25 0 COMRAM 1 cstackCOMRAM dist/default/production\Batch12.X.production.obj
+__Hidata 0 0 CODE 0 idata dist/default/production\Batch12.X.production.obj
+__Lidata 0 0 CODE 0 idata dist/default/production\Batch12.X.production.obj
+i2LCD_WriteCharAt@column A 0 COMRAM 1 cstackCOMRAM dist/default/production\Batch12.X.production.obj
+__Hrdata 0 0 COMRAM 1 rdata dist/default/production\Batch12.X.production.obj
+examSetup@F5362 123 0 BANK1 1 dataBANK1 dist/default/production\Batch12.X.production.obj
+__Lrdata 0 0 COMRAM 1 rdata dist/default/production\Batch12.X.production.obj
+__Hidloc 200008 0 IDLOC 0 idloc dist/default/production\Batch12.X.production.obj
+_Read_b_eep 2FC2 0 CODE 0 text14 dist/default/production\Batch12.X.production.obj
+__Lidloc 200000 0 IDLOC 0 idloc dist/default/production\Batch12.X.production.obj
+__Hstack 0 0 STACK 2 stack dist/default/production\Batch12.X.production.obj
+__Lstack 0 0 STACK 2 stack dist/default/production\Batch12.X.production.obj
+Delay_10ms@r0 1E 0 COMRAM 1 cstackCOMRAM dist/default/production\Batch12.X.production.obj
+int_func 1BB0 0 CODE 0 intcode_body dist/default/production\Batch12.X.production.obj
+_getBeep 2ED6 0 CODE 0 text18 dist/default/production\Batch12.X.production.obj
+___awmod 28FC 0 CODE 0 text23 dist/default/production\Batch12.X.production.obj
+__Hparam 0 0 ABS 0 rparam dist/default/production\Batch12.X.production.obj
+__Lparam 0 0 ABS 0 rparam dist/default/production\Batch12.X.production.obj
+__HcstackCOMRAM 0 0 ABS 0 cstackCOMRAM dist/default/production\Batch12.X.production.obj
+__LcstackCOMRAM 0 0 ABS 0 cstackCOMRAM dist/default/production\Batch12.X.production.obj
+setExamMCQ@txt1_1 60 0 BANK0 1 cstackBANK0 dist/default/production\Batch12.X.production.obj
+setExamMCQ@txt1_2 72 0 BANK0 1 cstackBANK0 dist/default/production\Batch12.X.production.obj
+__end_ofi2___awmod 2A34 0 CODE 0 text32 dist/default/production\Batch12.X.production.obj
+__pcstackCOMRAM 1 0 COMRAM 1 cstackCOMRAM dist/default/production\Batch12.X.production.obj
+_readKey 2860 0 CODE 0 text21 dist/default/production\Batch12.X.production.obj
+__size_ofi2_Delay_5ms 0 0 ABS 0 - dist/default/production\Batch12.X.production.obj
+_hourCnt FE 0 BANK0 1 dataBANK0 dist/default/production\Batch12.X.production.obj
+__size_ofi2_Delay_5us 0 0 ABS 0 - dist/default/production\Batch12.X.production.obj
+__Hsmallconst 88C 0 SMALLCONST 0 smallconst dist/default/production\Batch12.X.production.obj
+__size_of_INTERRUPT_SERVICE_ROUTING 0 0 ABS 0 - dist/default/production\Batch12.X.production.obj
+__Lsmallconst 800 0 SMALLCONST 0 smallconst dist/default/production\Batch12.X.production.obj
+__psmallconst 800 0 SMALLCONST 0 smallconst dist/default/production\Batch12.X.production.obj
+_seconds 40 0 COMRAM 1 bssCOMRAM dist/default/production\Batch12.X.production.obj
+LCD_WriteStringAt@row 26 0 COMRAM 1 cstackCOMRAM dist/default/production\Batch12.X.production.obj
+__Hnvbit 0 0 COMRAM 1 nvbit dist/default/production\Batch12.X.production.obj
+_subMenu DF6 0 CODE 0 text8 dist/default/production\Batch12.X.production.obj
+__Lnvbit 0 0 COMRAM 1 nvbit dist/default/production\Batch12.X.production.obj
+__Hcinit 0 0 ABS 0 cinit dist/default/production\Batch12.X.production.obj
+__Lcinit 0 0 ABS 0 cinit dist/default/production\Batch12.X.production.obj
+__CFG_FOSC$HS 0 0 ABS 0 - dist/default/production\Batch12.X.production.obj
+__pcinit 27C4 0 CODE 0 cinit dist/default/production\Batch12.X.production.obj
+__CFG_EBTRB$OFF 0 0 ABS 0 - dist/default/production\Batch12.X.production.obj
+___awdiv 25C0 0 CODE 0 text24 dist/default/production\Batch12.X.production.obj
+_minutes 3F 0 COMRAM 1 bssCOMRAM dist/default/production\Batch12.X.production.obj
+__ramtop 800 0 RAM 0 ramtop C:\Users\Heshan\AppData\Local\Temp\s4ko.obj
+__mediumconst 0 0 MEDIUMCONST 0 mediumconst C:\Users\Heshan\AppData\Local\Temp\s4ko.obj
+_LCD_WriteStringAt 2A34 0 CODE 0 text25 dist/default/production\Batch12.X.production.obj
+__size_of_main 0 0 ABS 0 - dist/default/production\Batch12.X.production.obj
+__Hconst 0 0 CODE 0 const dist/default/production\Batch12.X.production.obj
+__Lconst 0 0 CODE 0 const dist/default/production\Batch12.X.production.obj
+i2_LCD_WriteStringAt 2AC6 0 CODE 0 text34 dist/default/production\Batch12.X.production.obj
+runPaper@qCount_tmp DF 0 BANK0 1 cstackBANK0 dist/default/production\Batch12.X.production.obj
+__size_of_examSetup 0 0 ABS 0 - dist/default/production\Batch12.X.production.obj
+__end_ofi2_LCD_WriteStringAt 2B58 0 CODE 0 text34 dist/default/production\Batch12.X.production.obj
+Write_b_eep@badd 1E 0 COMRAM 1 cstackCOMRAM dist/default/production\Batch12.X.production.obj
+__end_of_view_answers DF6 0 CODE 0 text9 dist/default/production\Batch12.X.production.obj
+__HidataBANK0 0 0 ABS 0 idataBANK0 dist/default/production\Batch12.X.production.obj
+__LidataBANK0 0 0 ABS 0 idataBANK0 dist/default/production\Batch12.X.production.obj
+__pidataBANK0 2F18 0 CODE 0 idataBANK0 dist/default/production\Batch12.X.production.obj
+i2___awdiv@divisor 3 0 COMRAM 1 cstackCOMRAM dist/default/production\Batch12.X.production.obj
+examSetup@txt5 32A 0 BANK3 1 cstackBANK3 dist/default/production\Batch12.X.production.obj
+_LCD_WriteCommand 1DFE 0 CODE 0 text27 dist/default/production\Batch12.X.production.obj
+subMenu@F5387 2A4 0 BANK2 1 dataBANK2 dist/default/production\Batch12.X.production.obj
+__CFG_WRT0$OFF 0 0 ABS 0 - dist/default/production\Batch12.X.production.obj
+LCD_WriteCommand@cmd 22 0 COMRAM 1 cstackCOMRAM dist/default/production\Batch12.X.production.obj
+LCD_WriteStringAt@data 27 0 COMRAM 1 cstackCOMRAM dist/default/production\Batch12.X.production.obj
+__HbitbssCOMRAM 0 0 ABS 0 bitbssCOMRAM dist/default/production\Batch12.X.production.obj
+__LbitbssCOMRAM 0 0 ABS 0 bitbssCOMRAM dist/default/production\Batch12.X.production.obj
+__pbitbssCOMRAM 210 -1CE COMRAM 1 bitbssCOMRAM dist/default/production\Batch12.X.production.obj
+__CFG_WRT1$OFF 0 0 ABS 0 - dist/default/production\Batch12.X.production.obj
+getBeep@cnt 22 0 COMRAM 1 cstackCOMRAM dist/default/production\Batch12.X.production.obj
+_interruptConfig 2FD4 0 CODE 0 text15 dist/default/production\Batch12.X.production.obj
+__CFG_WRT2$OFF 0 0 ABS 0 - dist/default/production\Batch12.X.production.obj
+_get_yes_no 23DA 0 CODE 0 text16 dist/default/production\Batch12.X.production.obj
+readKey@row_cntr 24 0 COMRAM 1 cstackCOMRAM dist/default/production\Batch12.X.production.obj
+__CFG_WRT3$OFF 0 0 ABS 0 - dist/default/production\Batch12.X.production.obj
+__CFG_FCMEN$OFF 0 0 ABS 0 - dist/default/production\Batch12.X.production.obj
+setExamTime@F5370 F0 0 BANK0 1 dataBANK0 dist/default/production\Batch12.X.production.obj
+__HbssBANK1 0 0 ABS 0 bssBANK1 dist/default/production\Batch12.X.production.obj
+__LbssBANK1 0 0 ABS 0 bssBANK1 dist/default/production\Batch12.X.production.obj
+__pbssBANK1 185 0 BANK1 1 bssBANK1 dist/default/production\Batch12.X.production.obj
+__Htext10 0 0 ABS 0 text10 dist/default/production\Batch12.X.production.obj
+__Ltext10 0 0 ABS 0 text10 dist/default/production\Batch12.X.production.obj
+__Htext20 0 0 ABS 0 text20 dist/default/production\Batch12.X.production.obj
+__Ltext20 0 0 ABS 0 text20 dist/default/production\Batch12.X.production.obj
+__ptext10 2CD0 0 CODE 0 text10 dist/default/production\Batch12.X.production.obj
+__Htext30 0 0 ABS 0 text30 dist/default/production\Batch12.X.production.obj
+__Htext11 0 0 ABS 0 text11 dist/default/production\Batch12.X.production.obj
+__Ltext30 0 0 ABS 0 text30 dist/default/production\Batch12.X.production.obj
+__Ltext11 0 0 ABS 0 text11 dist/default/production\Batch12.X.production.obj
+__ptext20 22BE 0 CODE 0 text20 dist/default/production\Batch12.X.production.obj
+__Htext40 0 0 ABS 0 text40 dist/default/production\Batch12.X.production.obj
+__Htext21 0 0 ABS 0 text21 dist/default/production\Batch12.X.production.obj
+__Ltext40 0 0 ABS 0 text40 dist/default/production\Batch12.X.production.obj
+__Ltext21 0 0 ABS 0 text21 dist/default/production\Batch12.X.production.obj
+__ptext11 2E08 0 CODE 0 text11 dist/default/production\Batch12.X.production.obj
+__ptext30 2F6E 0 CODE 0 text30 dist/default/production\Batch12.X.production.obj
+__Htext12 0 0 ABS 0 text12 dist/default/production\Batch12.X.production.obj
+__Ltext12 0 0 ABS 0 text12 dist/default/production\Batch12.X.production.obj
+__ptext21 2860 0 CODE 0 text21 dist/default/production\Batch12.X.production.obj
+__ptext40 2EA8 0 CODE 0 text40 dist/default/production\Batch12.X.production.obj
+__Htext22 0 0 ABS 0 text22 dist/default/production\Batch12.X.production.obj
+__Ltext22 0 0 ABS 0 text22 dist/default/production\Batch12.X.production.obj
+__ptext12 2FFE 0 CODE 0 text12 dist/default/production\Batch12.X.production.obj
+__Htext32 0 0 ABS 0 text32 dist/default/production\Batch12.X.production.obj
+__Htext13 0 0 ABS 0 text13 dist/default/production\Batch12.X.production.obj
+__Ltext32 0 0 ABS 0 text32 dist/default/production\Batch12.X.production.obj
+__Ltext13 0 0 ABS 0 text13 dist/default/production\Batch12.X.production.obj
+__ptext22 2E44 0 CODE 0 text22 dist/default/production\Batch12.X.production.obj
+__Htext23 0 0 ABS 0 text23 dist/default/production\Batch12.X.production.obj
+__Ltext23 0 0 ABS 0 text23 dist/default/production\Batch12.X.production.obj
+__ptext13 2D2A 0 CODE 0 text13 dist/default/production\Batch12.X.production.obj
+__ptext32 2998 0 CODE 0 text32 dist/default/production\Batch12.X.production.obj
+__Htext33 0 0 ABS 0 text33 dist/default/production\Batch12.X.production.obj
+__Htext14 0 0 ABS 0 text14 dist/default/production\Batch12.X.production.obj
+__Ltext33 0 0 ABS 0 text33 dist/default/production\Batch12.X.production.obj
+__Ltext14 0 0 ABS 0 text14 dist/default/production\Batch12.X.production.obj
+__ptext23 28FC 0 CODE 0 text23 dist/default/production\Batch12.X.production.obj
+_EECON1bits FA6 0 ABS 0 - dist/default/production\Batch12.X.production.obj
+__HidataBANK1 0 0 ABS 0 idataBANK1 dist/default/production\Batch12.X.production.obj
+__size_of___awdiv 0 0 ABS 0 - dist/default/production\Batch12.X.production.obj
+__LidataBANK1 0 0 ABS 0 idataBANK1 dist/default/production\Batch12.X.production.obj
+__Htext24 0 0 ABS 0 text24 dist/default/production\Batch12.X.production.obj
+__Ltext24 0 0 ABS 0 text24 dist/default/production\Batch12.X.production.obj
+__ptext14 2FC2 0 CODE 0 text14 dist/default/production\Batch12.X.production.obj
+__ptext33 2670 0 CODE 0 text33 dist/default/production\Batch12.X.production.obj
+__pidataBANK1 2C5A 0 CODE 0 idataBANK1 dist/default/production\Batch12.X.production.obj
+__Htext34 0 0 ABS 0 text34 dist/default/production\Batch12.X.production.obj
+__Htext15 0 0 ABS 0 text15 dist/default/production\Batch12.X.production.obj
+__Ltext34 0 0 ABS 0 text34 dist/default/production\Batch12.X.production.obj
+__Ltext15 0 0 ABS 0 text15 dist/default/production\Batch12.X.production.obj
+__ptext24 25C0 0 CODE 0 text24 dist/default/production\Batch12.X.production.obj
+__Htext25 0 0 ABS 0 text25 dist/default/production\Batch12.X.production.obj
+readKey@key 23 0 COMRAM 1 cstackCOMRAM dist/default/production\Batch12.X.production.obj
+__Ltext25 0 0 ABS 0 text25 dist/default/production\Batch12.X.production.obj
+__ptext15 2FD4 0 CODE 0 text15 dist/default/production\Batch12.X.production.obj
+__ptext34 2AC6 0 CODE 0 text34 dist/default/production\Batch12.X.production.obj
+get_yes_no@user_option 210 -1CE COMRAM 1 bitbssCOMRAM dist/default/production\Batch12.X.production.obj
+___inthi_sp 0 0 STACK 2 stack C:\Users\Heshan\AppData\Local\Temp\s4ko.obj
+__Htext35 0 0 ABS 0 text35 dist/default/production\Batch12.X.production.obj
+__Htext16 0 0 ABS 0 text16 dist/default/production\Batch12.X.production.obj
+__Ltext35 0 0 ABS 0 text35 dist/default/production\Batch12.X.production.obj
+__Ltext16 0 0 ABS 0 text16 dist/default/production\Batch12.X.production.obj
+__ptext25 2A34 0 CODE 0 text25 dist/default/production\Batch12.X.production.obj
+__Htext26 0 0 ABS 0 text26 dist/default/production\Batch12.X.production.obj
+__Ltext26 0 0 ABS 0 text26 dist/default/production\Batch12.X.production.obj
+__ptext16 23DA 0 CODE 0 text16 dist/default/production\Batch12.X.production.obj
+__ptext35 2DC0 0 CODE 0 text35 dist/default/production\Batch12.X.production.obj
+__Htext36 0 0 ABS 0 text36 dist/default/production\Batch12.X.production.obj
+__Htext17 0 0 ABS 0 text17 dist/default/production\Batch12.X.production.obj
+__Ltext36 0 0 ABS 0 text36 dist/default/production\Batch12.X.production.obj
+__Ltext17 0 0 ABS 0 text17 dist/default/production\Batch12.X.production.obj
+__ptext26 2D78 0 CODE 0 text26 dist/default/production\Batch12.X.production.obj
+__Htext27 0 0 ABS 0 text27 dist/default/production\Batch12.X.production.obj
+__Ltext27 0 0 ABS 0 text27 dist/default/production\Batch12.X.production.obj
+__ptext17 2E7A 0 CODE 0 text17 dist/default/production\Batch12.X.production.obj
+__ptext36 205E 0 CODE 0 text36 dist/default/production\Batch12.X.production.obj
+___awmod@divisor 20 0 COMRAM 1 cstackCOMRAM dist/default/production\Batch12.X.production.obj
+__Htext37 0 0 ABS 0 text37 dist/default/production\Batch12.X.production.obj
+__Htext18 0 0 ABS 0 text18 dist/default/production\Batch12.X.production.obj
+__Ltext37 0 0 ABS 0 text37 dist/default/production\Batch12.X.production.obj
+__Ltext18 0 0 ABS 0 text18 dist/default/production\Batch12.X.production.obj
+__ptext27 1DFE 0 CODE 0 text27 dist/default/production\Batch12.X.production.obj
+__size_of_subMenu 0 0 ABS 0 - dist/default/production\Batch12.X.production.obj
+__Htext28 0 0 ABS 0 text28 dist/default/production\Batch12.X.production.obj
+__Ltext28 0 0 ABS 0 text28 dist/default/production\Batch12.X.production.obj
+__ptext18 2ED6 0 CODE 0 text18 dist/default/production\Batch12.X.production.obj
+__ptext37 218E 0 CODE 0 text37 dist/default/production\Batch12.X.production.obj
+__Htext38 0 0 ABS 0 text38 dist/default/production\Batch12.X.production.obj
+__Htext19 0 0 ABS 0 text19 dist/default/production\Batch12.X.production.obj
+i2LCD_WriteStringAt@string 7 0 COMRAM 1 cstackCOMRAM dist/default/production\Batch12.X.production.obj
+__Ltext38 0 0 ABS 0 text38 dist/default/production\Batch12.X.production.obj
+__Ltext19 0 0 ABS 0 text19 dist/default/production\Batch12.X.production.obj
+__ptext28 1F2E 0 CODE 0 text28 dist/default/production\Batch12.X.production.obj
+_loadAnswer 2D2A 0 CODE 0 text13 dist/default/production\Batch12.X.production.obj
+__Htext29 0 0 ABS 0 text29 dist/default/production\Batch12.X.production.obj
+__Ltext29 0 0 ABS 0 text29 dist/default/production\Batch12.X.production.obj
+__ptext19 164C 0 CODE 0 text19 dist/default/production\Batch12.X.production.obj
+__ptext38 2F8A 0 CODE 0 text38 dist/default/production\Batch12.X.production.obj
+___intlo_sp 0 0 STACK 2 stack C:\Users\Heshan\AppData\Local\Temp\s4ko.obj
+__Htext39 0 0 ABS 0 text39 dist/default/production\Batch12.X.production.obj
+_saveAnswer 2CD0 0 CODE 0 text10 dist/default/production\Batch12.X.production.obj
+__Ltext39 0 0 ABS 0 text39 dist/default/production\Batch12.X.production.obj
+__ptext29 2F52 0 CODE 0 text29 dist/default/production\Batch12.X.production.obj
+_initializeDevice 2BDA 0 CODE 0 text1 dist/default/production\Batch12.X.production.obj
+__ptext39 2FA6 0 CODE 0 text39 dist/default/production\Batch12.X.production.obj
+examSetup@F5356 22A 0 BANK2 1 dataBANK2 dist/default/production\Batch12.X.production.obj
+setExamMCQ@F5372 2C9 0 BANK2 1 dataBANK2 dist/default/production\Batch12.X.production.obj
+_INTCONbits FF2 0 ABS 0 - dist/default/production\Batch12.X.production.obj
+__end_ofi2_Delay_1000ms 2ED6 0 CODE 0 text40 dist/default/production\Batch12.X.production.obj
+__Hend_init 1C 0 CODE 0 end_init dist/default/production\Batch12.X.production.obj
+__Lend_init 18 0 CODE 0 end_init dist/default/production\Batch12.X.production.obj
+LCD_WriteCharAt@location 2A 0 COMRAM 1 cstackCOMRAM dist/default/production\Batch12.X.production.obj
+__size_of_readKey 0 0 ABS 0 - dist/default/production\Batch12.X.production.obj
+i2LCD_WriteStringAt@row 9 0 COMRAM 1 cstackCOMRAM dist/default/production\Batch12.X.production.obj
+___awdiv@divisor 20 0 COMRAM 1 cstackCOMRAM dist/default/production\Batch12.X.production.obj
+__HidataCOMRAM 0 0 ABS 0 idataCOMRAM dist/default/production\Batch12.X.production.obj
+__LidataCOMRAM 0 0 ABS 0 idataCOMRAM dist/default/production\Batch12.X.production.obj
+__pidataCOMRAM 2FE4 0 CODE 0 idataCOMRAM dist/default/production\Batch12.X.production.obj
+?i2___awdiv 1 0 COMRAM 1 cstackCOMRAM dist/default/production\Batch12.X.production.obj
+examSetup@txt0 371 0 BANK3 1 cstackBANK3 dist/default/production\Batch12.X.production.obj
+powerOnScreen@F5420 269 0 BANK2 1 dataBANK2 dist/default/production\Batch12.X.production.obj
+powerOnScreen@F5416 23F 0 BANK2 1 dataBANK2 dist/default/production\Batch12.X.production.obj
+powerOnScreen@F5418 254 0 BANK2 1 dataBANK2 dist/default/production\Batch12.X.production.obj
+_Delay_1000ms 2E7A 0 CODE 0 text17 dist/default/production\Batch12.X.production.obj
+__CFG_CP0$OFF 0 0 ABS 0 - dist/default/production\Batch12.X.production.obj
+__smallconst 800 0 SMALLCONST 0 smallconst C:\Users\Heshan\AppData\Local\Temp\s4ko.obj
+__CFG_CP1$OFF 0 0 ABS 0 - dist/default/production\Batch12.X.production.obj
+__Hreset_vec 4 0 CODE 0 reset_vec dist/default/production\Batch12.X.production.obj
+__Lreset_vec 0 0 CODE 0 reset_vec dist/default/production\Batch12.X.production.obj
+__HcstackBANK3 0 0 ABS 0 cstackBANK3 dist/default/production\Batch12.X.production.obj
+__LcstackBANK3 0 0 ABS 0 cstackBANK3 dist/default/production\Batch12.X.production.obj
+__CFG_CP2$OFF 0 0 ABS 0 - dist/default/production\Batch12.X.production.obj
+__HidataBANK2 0 0 ABS 0 idataBANK2 dist/default/production\Batch12.X.production.obj
+__LidataBANK2 0 0 ABS 0 idataBANK2 dist/default/production\Batch12.X.production.obj
+__pcstackBANK3 300 0 BANK3 1 cstackBANK3 dist/default/production\Batch12.X.production.obj
+__pidataBANK2 24D2 0 CODE 0 idataBANK2 dist/default/production\Batch12.X.production.obj
+Read_b_eep@badd 1E 0 COMRAM 1 cstackCOMRAM dist/default/production\Batch12.X.production.obj
+__CFG_CP3$OFF 0 0 ABS 0 - dist/default/production\Batch12.X.production.obj
+examSetup@txt6 360 0 BANK3 1 cstackBANK3 dist/default/production\Batch12.X.production.obj
+__stringdata 801 0 SMALLCONST 0 smallconst dist/default/production\Batch12.X.production.obj
+subMenu@F5389 145 0 BANK1 1 dataBANK1 dist/default/production\Batch12.X.production.obj
+__accesstop 60 0 ABS 0 - C:\Users\Heshan\AppData\Local\Temp\s4ko.obj
+__Hintcode_body 0 0 ABS 0 intcode_body dist/default/production\Batch12.X.production.obj
+__Lintcode_body 0 0 ABS 0 intcode_body dist/default/production\Batch12.X.production.obj
+i2LCD_WriteStringAt@column 6 0 COMRAM 1 cstackCOMRAM dist/default/production\Batch12.X.production.obj
+__pintcode_body 1BB0 0 CODE 0 intcode_body dist/default/production\Batch12.X.production.obj
+_setExamTime 164C 0 CODE 0 text19 dist/default/production\Batch12.X.production.obj
+intlevel0 0 0 CODE 0 text C:\Users\Heshan\AppData\Local\Temp\s4ko.obj
+_INTERRUPT_SERVICE_ROUTING 8 0 CODE 0 intcode dist/default/production\Batch12.X.production.obj
+__size_of_setExamMCQ 0 0 ABS 0 - dist/default/production\Batch12.X.production.obj
+intlevel1 0 0 CODE 0 text C:\Users\Heshan\AppData\Local\Temp\s4ko.obj
+_mili_seconds 3A 0 COMRAM 1 bssCOMRAM dist/default/production\Batch12.X.production.obj
+__CFG_WRTB$OFF 0 0 ABS 0 - dist/default/production\Batch12.X.production.obj
+intlevel2 0 0 CODE 0 text C:\Users\Heshan\AppData\Local\Temp\s4ko.obj
+__size_of_loadAnswer 0 0 ABS 0 - dist/default/production\Batch12.X.production.obj
+intlevel3 0 0 CODE 0 text C:\Users\Heshan\AppData\Local\Temp\s4ko.obj
+__CFG_WRTC$OFF 0 0 ABS 0 - dist/default/production\Batch12.X.production.obj
+examSetup@F5360 27E 0 BANK2 1 dataBANK2 dist/default/production\Batch12.X.production.obj
+__CFG_WRTD$OFF 0 0 ABS 0 - dist/default/production\Batch12.X.production.obj
+__end_of_initializeDevice 2C5A 0 CODE 0 text1 dist/default/production\Batch12.X.production.obj
+startExam@txt1 175 0 BANK1 1 cstackBANK1 dist/default/production\Batch12.X.production.obj
+__size_of_setExamTime 0 0 ABS 0 - dist/default/production\Batch12.X.production.obj
+__HdataCOMRAM 0 0 ABS 0 dataCOMRAM dist/default/production\Batch12.X.production.obj
+__LdataCOMRAM 0 0 ABS 0 dataCOMRAM dist/default/production\Batch12.X.production.obj
+__pdataCOMRAM 2C 0 COMRAM 1 dataCOMRAM dist/default/production\Batch12.X.production.obj
+__CFG_CPB$OFF 0 0 ABS 0 - dist/default/production\Batch12.X.production.obj
+__CFG_CPD$OFF 0 0 ABS 0 - dist/default/production\Batch12.X.production.obj
+start_initialization 27C4 0 CODE 0 cinit dist/default/production\Batch12.X.production.obj
+___awdiv@quotient 25 0 COMRAM 1 cstackCOMRAM dist/default/production\Batch12.X.production.obj
+__size_of_view_answers 0 0 ABS 0 - dist/default/production\Batch12.X.production.obj
+__size_of_Delay_1ms 0 0 ABS 0 - dist/default/production\Batch12.X.production.obj
+__size_of_Delay_5ms 0 0 ABS 0 - dist/default/production\Batch12.X.production.obj
+__size_of_Delay_5us 0 0 ABS 0 - dist/default/production\Batch12.X.production.obj
+_timeFrame_cnt 41 0 COMRAM 1 bssCOMRAM dist/default/production\Batch12.X.production.obj
+__end_of_Delay_5ms 2F8A 0 CODE 0 text30 dist/default/production\Batch12.X.production.obj
+__end_of_Delay_5us 2F6E 0 CODE 0 text29 dist/default/production\Batch12.X.production.obj
+__size_of_Read_b_eep 0 0 ABS 0 - dist/default/production\Batch12.X.production.obj
+__CFG_IESO$OFF 0 0 ABS 0 - dist/default/production\Batch12.X.production.obj
+__CFG_MCLRE$ON 0 0 ABS 0 - dist/default/production\Batch12.X.production.obj
+__size_of_Delay_10ms 0 0 ABS 0 - dist/default/production\Batch12.X.production.obj
+i2___awdiv@quotient 8 0 COMRAM 1 cstackCOMRAM dist/default/production\Batch12.X.production.obj
+__end_of_LCD_WriteCommand 1F2E 0 CODE 0 text27 dist/default/production\Batch12.X.production.obj
+subMenu@txt0 91 0 BANK0 1 cstackBANK0 dist/default/production\Batch12.X.production.obj
+__size_of_startExam 0 0 ABS 0 - dist/default/production\Batch12.X.production.obj
+__size_of___awmod 0 0 ABS 0 - dist/default/production\Batch12.X.production.obj
+examSetup@txt1 300 0 BANK3 1 cstackBANK3 dist/default/production\Batch12.X.production.obj
+__initialization 27C4 0 CODE 0 cinit dist/default/production\Batch12.X.production.obj
+runPaper@txt1 BE 0 BANK0 1 cstackBANK0 dist/default/production\Batch12.X.production.obj
+i2_Delay_5ms 2FA6 0 CODE 0 text39 dist/default/production\Batch12.X.production.obj
+__size_of_Delay_100ms 0 0 ABS 0 - dist/default/production\Batch12.X.production.obj
+__CFG_LPT1OSC$OFF 0 0 ABS 0 - dist/default/production\Batch12.X.production.obj
+___awmod@dividend 1E 0 COMRAM 1 cstackCOMRAM dist/default/production\Batch12.X.production.obj
+__CFG_BOR$OFF 0 0 ABS 0 - dist/default/production\Batch12.X.production.obj
+__activetblptr 2 0 ABS 0 - dist/default/production\Batch12.X.production.obj
+__end_of_initialize_LCD 2BDA 0 CODE 0 text2 dist/default/production\Batch12.X.production.obj
+__end_of_LCD_WriteChar 205E 0 CODE 0 text28 dist/default/production\Batch12.X.production.obj
+___awmod@counter 23 0 COMRAM 1 cstackCOMRAM dist/default/production\Batch12.X.production.obj
+__CFG_WDT$OFF 0 0 ABS 0 - dist/default/production\Batch12.X.production.obj
+examSetup@txt7 33D 0 BANK3 1 cstackBANK3 dist/default/production\Batch12.X.production.obj
+subMenu@txt1 6C 0 BANK0 1 cstackBANK0 dist/default/production\Batch12.X.production.obj
+__CFG_LVP$OFF 0 0 ABS 0 - dist/default/production\Batch12.X.production.obj
+__end_of_LCD_WriteStringAt 2AC6 0 CODE 0 text25 dist/default/production\Batch12.X.production.obj
+setExamTime@F5366 291 0 BANK2 1 dataBANK2 dist/default/production\Batch12.X.production.obj
+setExamTime@F5368 E3 0 BANK0 1 dataBANK0 dist/default/production\Batch12.X.production.obj
+___awdiv@dividend 1E 0 COMRAM 1 cstackCOMRAM dist/default/production\Batch12.X.production.obj
+# %SPLITSTAB Section
+# This section enumerates all the psect splits performed by the assembler.
+# The beginning of the section is indicated by %SPLITSTAB.
+# Each line is a record a particular split, where the parent psect in on
+# the left and the child on the right.  Note that a child psect is always
+# split form the top of the parent psect. All splits from a given parent
+# are listed in the order in which they occurred.
+%SPLITSTAB
+# %DABS Section
+# This section contains a table of all usuage of the assember
+# directive DABS in the program. Each line has the following format:
+#   <name> <space> <address> <size>
+# If the DABS was originally labelled then that shall be <name>,
+# otherwise name will be "-".  The <space> number is in decimal.
+# <address> and <size> are in byte units as unqaulified hexadecimal
+%DABS
+# %SEGMENTS Section
+# This sections enumerates the segments of the program.  Each segment
+# is described on a single line as follows:
+#    <name> <space> <link address> <file address> <size> <delta>
+# Addresses and size are in unqualified hexadecimal.  The link address
+# and size are in units of delta. The file address is in units of bytes.
+# All other numeric quantities are in decimal.
+%SEGMENTS
+reset_vec 0 0 0 4 1
+intcode 0 8 8 14 1
+smallconst 0 800 800 8C 1
+config 0 300000 300000 E 1
+idloc 0 200000 200000 8 1
+cstackCOMRAM 1 1 1 42 1
+cstackBANK0 1 60 60 A0 1
+dataBANK2 1 200 200 ED 1
+cstackBANK3 1 300 300 87 1
+dataBANK1 1 100 100 86 1
+text9 0 88C 88C 1D33 1
+text24 0 25C0 25C0 70F 1
+text10 0 2CD0 2CD0 265 1
+text4 0 2F36 2F36 CE 1
